@@ -1,0 +1,29 @@
+
+DESCRIPTION OF ERP RESPONSE IN CHANNEL 7:
+
+1. FACES CONDITION:
+   - The ERP shows a characteristic negative deflection (trough) around 1ms
+   - Peak amplitude: 6.08 μV at 98ms
+   - Trough amplitude: -10.52 μV at 520ms
+   - This negative component is consistent with the N170 ERP component, which is 
+     known to be particularly sensitive to face processing
+   
+2. FACES-AS-TEXTURE CONDITION:
+   - Shows similar overall waveform but with reduced amplitude
+   - The negative deflection is less pronounced compared to intact faces
+   - This suggests that the scrambling/texturing of faces reduces the face-specific
+     neural response
+     
+3. DIFFERENCE BETWEEN CONDITIONS:
+   - The difference wave (Faces - Faces as Texture) shows that intact faces elicit
+     a stronger negative response around 150-200ms post-stimulus
+   - This differential response represents the face-specific processing that occurs
+     in the N170 time window
+   - The effect is most pronounced in the 150-200ms range, consistent with N170 literature
+   
+4. INTERPRETATION:
+   - Channel 7 appears to be positioned over posterior regions (likely
+     occipito-temporal areas) where face-sensitive N170 components are typically observed
+   - The stronger response to intact faces vs. scrambled faces demonstrates that this
+     ERP component is sensitive to face configuration, not just low-level visual features
+   - The smoothing helped reveal the underlying ERP pattern by reducing high-frequency noise
