@@ -1,0 +1,1129 @@
+======================================================================
+Part 1: TMM Normalization
+======================================================================
+Loaded pasilla data from local file
+
+Data shape: (14599, 7)
+Samples: ['untreated1', 'untreated2', 'untreated3', 'untreated4', 'treated1', 'treated2', 'treated3']
+
+Reference vector (X): untreated1
+Vector to normalize (Y): treated1
+Number of genes: 14599
+
+Running TMM normalization with D = 0.3
+Plot saved as 'Part1_TMM_normalization.png'
+
+Results:
+  Correction factor (exp(TMM)): 1.416963
+  TMM value: 0.348516
+
+Sum comparison:
+  Sum of X (reference):     13,972,512
+  Sum of Y (original):      18,670,279
+  Sum of Y' (normalized):   13,176,261
+
+First 5 gene values comparison:
+Gene            X            Y (orig)     Y (norm)
+---------------------------------------------------
+FBgn0000003     0.0          0.0          0.0
+FBgn0000008     92.0         140.0        98.8
+FBgn0000014     5.0          4.0          2.8
+FBgn0000015     0.0          1.0          0.7
+FBgn0000017     4664.0       6205.0       4379.1
+
+
+======================================================================
+Part 1: Quantile Normalization
+======================================================================
+Loaded pasilla data from local file
+
+Data shape: (14599, 7)
+Samples: ['untreated1', 'untreated2', 'untreated3', 'untreated4', 'treated1', 'treated2', 'treated3']
+
+Vector X: untreated1
+Vector Y: treated1
+Number of genes: 14599
+
+Running Quantile normalization...
+Plot saved as 'Part1_Quantile_normalization.png'
+
+Results:
+
+Sum comparison:
+  Sum of X (original):      13,972,512
+  Sum of Y (original):      18,670,279
+  Sum of X' (normalized):   16,321,396
+  Sum of Y' (normalized):   16,321,396
+
+Distribution comparison (should be identical after normalization):
+  Mean of X':  1117.98
+  Mean of Y':  1117.98
+  Std of X':   4979.37
+  Std of Y':   4979.37
+
+First 5 gene values comparison:
+Gene            X (orig)     Y (orig)     X (norm)     Y (norm)
+---------------------------------------------------------------
+FBgn0000003     0.0          0.0          0.0          0.0
+FBgn0000008     92.0         140.0        122.5        112.0
+FBgn0000014     5.0          4.0          7.0          3.0
+FBgn0000015     0.0          1.0          0.5          0.5
+FBgn0000017     4664.0       6205.0       5502.5       5402.5
+
+
+======================================================================
+Part 2: Circadian Detection with Permutation Analysis
+======================================================================
+Loaded circadian data: (14839, 14)
+Time point columns: ['A_11PM', 'A_3AM', 'A_7AM', 'A_11AM', 'A_3PM', 'A_7PM', 'B_11PM', 'B_3AM', 'B_7AM', 'B_11AM', 'B_3PM', 'B_7PM']
+Data matrix shape: (14839, 12)
+Number of genes: 14839
+
+======================================================================
+Step 1: Calculating G factors for real data
+======================================================================
+Calculated G factors for 14839 genes
+
+Sample counts from real data:
+  G >= 0.00: 14,836 genes
+  G >= 0.30: 4,226 genes
+  G >= 0.50: 1,514 genes
+  G >= 0.70: 414 genes
+
+======================================================================
+Steps 2-4: Running permutation analysis
+======================================================================
+Running 100 permutations...
+
+Sample counts from permuted data (averaged over 100 permutations):
+  G >= 0.00: 14,836.0 genes
+  G >= 0.30: 2,322.7 genes
+  G >= 0.50: 425.9 genes
+  G >= 0.70: 37.7 genes
+
+======================================================================
+Step 5: Plotting results
+======================================================================
+Plot saved as 'Part2_genes_detected.png'
+
+======================================================================
+Steps 6-7: Calculating true positive rates
+======================================================================
+Plot saved as 'Part2_true_positive_rate.png'
+
+======================================================================
+Analysis for Part 3: True positive rate
+======================================================================
+
+Results:
+  G factor cutoff for 80% true positive rate: 0.58
+  Number of circadian genes at this cutoff: 963
+Circadian gene expression data saved to 'circadian_genes_expression.csv'
+
+
+======================================================================
+Part 3: Hierarchical Clustering
+======================================================================
+Loaded circadian gene expression data: (963, 12)
+
+Expression matrix shape: (963, 12)
+Number of genes: 963
+
+Running hierarchical clustering with K = 6...
+Starting hierarchical clustering...
+  Number of genes (N): 963
+  Number of conditions: 12
+  Target clusters (K): 6
+
+Computing distance matrix using Pearson correlation...
+
+Performing 957 merge iterations...
+
+Clustering complete. 6 clusters formed.
+
+======================================================================
+CLUSTERING RESULTS (K = 6 clusters)
+======================================================================
+
+Cluster_1 (89 genes):
+----------------------------------------
+  - ZNF703
+  - si:ch211-231h20.3
+  - rel
+  - zgc:123210
+  - zgc:92467
+  - LIMA1
+  - myh9l2
+  - dhdhl
+  - CCNA2
+  - SDC2
+  - creb3l3l
+  - RQCD1
+  - sdcbp
+  - Tbk1
+  - rxrga
+  - ALDH1A2
+  - XIAP
+  - PDCD5
+  - zgc:136870
+  - pald
+  - COL18A1
+  - zgc:152808
+  - ANGPTL2
+  - kal1b
+  - slc30a10
+  - GPCPD1
+  - zgc:171846
+  - zgc:162565
+  - ME3
+  - BOC
+  - Rab3gap1
+  - si:dkey-211g8.3
+  - slc16a9b
+  - zgc:153408
+  - Cyp11b2
+  - TRIM36
+  - pja2
+  - zgc:73347
+  - zfand5a
+  - zgc:110805
+  - zgc:136817
+  - zgc:154067
+  - nan
+  - nr1d2b
+  - MED21
+  - DDA1
+  - lnx2a
+  - zgc:154141
+  - rtk8
+  - nan
+  - SMAD1
+  - nan
+  - CYYR1
+  - prkar2aa
+  - zgc:136807
+  - DENND5B
+  - pfkmb
+  - syt5a
+  - dpysl5b
+  - arr3l
+  - zgc:158388
+  - adipor1a
+  - zgc:91984
+  - zgc:171765
+  - fbxo25
+  - zgc:91870
+  - zgc:77101
+  - LOC553327
+  - Cox7a2l
+  - zgc:103658
+  - si:dkey-114g7.4
+  - Renbp
+  - pcdh15a
+  - ctsba
+  - nan
+  - smek2
+  - pdzd11
+  - Dclk2
+  - zgc:123190
+  - CTSH
+  - CPSF3
+  - RCL1
+  - GRPEL1
+  - cdc20
+  - pts
+  - bco2a
+  - HCCS
+  - eif1axa
+  - Nop10
+
+Cluster_2 (36 genes):
+----------------------------------------
+  - smek2
+  - LOC797311
+  - zgc:136520
+  - zgc:110385
+  - zgc:55344
+  - colm
+  - couptf4
+  - abcg4b
+  - SAG
+  - zgc:153425
+  - zgc:165502
+  - zgc:136850
+  - SLC19A3
+  - LOC100001127
+  - mycl1a
+  - cab39
+  - PER2
+  - Otof
+  - tslpr
+  - scrib
+  - tfe3a
+  - zgc:153035
+  - cyp1d1
+  - Unc5a
+  - zgc:136906
+  - rorab
+  - Smyd3
+  - BBOX1
+  - zgc:92201
+  - RTN3
+  - zgc:101710
+  - zgc:73155
+  - nan
+  - CYP26B1
+  - CHEK1
+  - si:dkeyp-22b2.3
+
+Cluster_3 (172 genes):
+----------------------------------------
+  - ARL15
+  - si:dkey-238o13.4
+  - gpsm1
+  - CYFIP1
+  - CRIP2
+  - ALG1
+  - si:ch211-172j10.2
+  - zgc:112296
+  - FBXO30
+  - ppp1r14b
+  - NFIL3
+  - zgc:153381
+  - zgc:154031
+  - Mbnl3
+  - c3orf58b
+  - acbd5a
+  - zgc:158317
+  - NR3C2
+  - zgc:153115
+  - mapk8
+  - zgc:136755
+  - grma
+  - Tgif1
+  - bmp2k
+  - nan
+  - lppr3a
+  - ypel3
+  - samsn1a
+  - dock4b
+  - zgc:92578
+  - oscp1
+  - opn1lw2
+  - cry4
+  - esrra
+  - igsf21b
+  - ELL2
+  - zgc:158220
+  - CA14
+  - NEUROD4
+  - arntl1a
+  - arntl1b
+  - HIP1
+  - tbl1x
+  - DIP2B
+  - zgc:92901
+  - ANKRD12
+  - PLIN2
+  - GPR146
+  - ldlrap1a
+  - atxn1b
+  - GPT2
+  - zgc:195269
+  - zgc:153678
+  - zgc:153372
+  - cdc14aa
+  - Ube4b
+  - zgc:162780
+  - ttll6
+  - zgc:100861
+  - AGPAT3
+  - nan
+  - ankrd10a
+  - TMX3
+  - si:dkey-75a21.2
+  - zgc:158748
+  - CCNG2
+  - zgc:136547
+  - cul1b
+  - zgc:152917
+  - rbm24b
+  - SMAD2
+  - Ppp1cc
+  - Dok6
+  - zgc:136367
+  - lhx3
+  - KIFAP3
+  - Dcakd
+  - PMEPA1
+  - TMEM35
+  - PLEKHH1
+  - grk1b
+  - cdc34b
+  - Gadd45g
+  - zgc:100913
+  - mest
+  - cry2a
+  - PRNP
+  - Etfdh
+  - GLRX2
+  - ARNTL2
+  - zgc:65987
+  - zgc:162904
+  - ATP7A
+  - DENND4A
+  - fus
+  - si:dkeyp-114f9.4
+  - LOC560226
+  - igf1ra
+  - zgc:114139
+  - si:ch211-39a7.1
+  - ddx3
+  - cat
+  - ano2
+  - robo3
+  - gnb3b
+  - slc6a4a
+  - nlk1
+  - pcdh2ab10
+  - NFIA
+  - zgc:109782
+  - SMURF2
+  - gpm6ba
+  - nlgn3a
+  - smarcd3b
+  - si:dkey-264g21.1
+  - zgc:92164
+  - CLOCK
+  - nan
+  - zgc:92245
+  - SLC6A13
+  - zgc:158657
+  - zgc:172102
+  - TOMM34
+  - CRB2
+  - CDH2
+  - Esr1
+  - zgc:158349
+  - si:dkey-31f5.7
+  - MGA
+  - si:rp71-57j15.4
+  - bmpr1aa
+  - cxcr7
+  - DUSP1
+  - nan
+  - msi2b
+  - Fgf3
+  - LOC799271
+  - rorca
+  - mycl1b
+  - zgc:122977
+  - btg1
+  - ATP synthesis coupled proton transport
+  - zgc:171771
+  - zgc:136346
+  - si:ch211-124k10.2
+  - zgc:110045
+  - RASSF1
+  - CYYR1
+  - hsf1
+  - zgc:64031
+  - Gnb1l
+  - fbxl3a
+  - NPAS2
+  - fbxl3a
+  - etv5a
+  - Mxd3
+  - zgc:152863
+  - si:dkey-72l14.9
+  - zgc:171763
+  - prph2b
+  - naa15b
+  - Ccne2
+  - sfrp2
+  - zgc:136557
+  - ODC1
+  - zgc:153096
+  - Kera
+  - rnf144ab
+  - zgc:158331
+  - nan
+  - nan
+  - zgc:113028
+
+Cluster_4 (131 genes):
+----------------------------------------
+  - zgc:92502
+  - PDLIM5
+  - neu3.2
+  - nucb2a
+  - zgc:158399
+  - LOC559344
+  - zgc:73226
+  - si:dkeyp-84a8.8
+  - acot9
+  - Ephx2
+  - CIRH1A
+  - DOCK1
+  - zgc:103755
+  - si:ch211-106h11.4
+  - LOC100001080
+  - cytsaa
+  - ZCCHC17
+  - si:dkey-77b17.2
+  - Gabrr1
+  - zgc:103434
+  - chrnb3a
+  - Hpca
+  - PEX5
+  - Mdh1b
+  - FANCA
+  - phyhipl
+  - zgc:158426
+  - tas1r3
+  - eif4g2b
+  - Ldhd
+  - CTH
+  - PPM1E
+  - nan
+  - ACOT7
+  - Tsg101
+  - zgc:153018
+  - pcsk1nl
+  - kdm5ba
+  - zgc:109968
+  - zgc:112372
+  - nan
+  - kcnip3l
+  - qdpra
+  - cdk5r2b
+  - qdpra
+  - pygmb
+  - ckbb
+  - STRA6
+  - Rrp12
+  - pkm2a
+  - aclya
+  - zgc:73371
+  - guca1c
+  - atp1a3b
+  - si:dkey-158b13.1
+  - zgc:63779
+  - nan
+  - GHITM
+  - st6gal2-r
+  - ZNRD1
+  - tcerg1
+  - tcerg1
+  - dpy19l1l
+  - TIPARP
+  - zgc:154001
+  - mknk2a
+  - zgc:73359
+  - zgc:77060
+  - CYYR1
+  - nan
+  - zgc:73155
+  - Pc
+  - ASZ1
+  - ahcY
+  - eno1
+  - gpia
+  - PIK3R3
+  - LOC794131
+  - UCHL5
+  - REEP6
+  - zfp36l1l
+  - DDX27
+  - zgc:153233
+  - zgc:113143
+  - NLE1
+  - dt1p1a10l
+  - ptbp1b
+  - si:ch211-234p6.8
+  - zgc:136867
+  - zgc:162967
+  - per3
+  - zgc:123204
+  - ak3
+  - NOC3L
+  - cplx4b
+  - Rab43
+  - zgc:123203
+  - OSBPL7
+  - cry1b
+  - cdkal1
+  - zgc:73185
+  - tmub2
+  - map2k6
+  - zgc:162319
+  - Rbm19
+  - Nat10
+  - zgc:153683
+  - mrpl28
+  - Pdcd11
+  - mybbp1a
+  - NHP2L1
+  - pa2g4a
+  - zgc:110782
+  - zgc:153948
+  - nucb2b
+  - mdh1a
+  - zgc:113006
+  - sult1st6
+  - cyp2j29
+  - Trpv6
+  - MCM4
+  - Mcm5
+  - CD164
+  - TLN1
+  - zgc:101897
+  - Tgfbr2
+  - WSB1
+  - zgc:64130
+  - Msh2
+  - cyt1l
+  - zgc:152970
+
+Cluster_5 (259 genes):
+----------------------------------------
+  - PDP2
+  - usp49
+  - zgc:64190
+  - CHRND
+  - ufd1l
+  - nan
+  - her9
+  - Phpt1
+  - CTSZ
+  - eif2ak3
+  - si:ch211-113p18.5
+  - zgc:77938
+  - slc43a2a
+  - zbtb2b
+  - fstl1b
+  - MAGI1
+  - zgc:92046
+  - nan
+  - fgfr1a
+  - ywhaqb
+  - nan
+  - acp1
+  - SLC5A12
+  - irx5b
+  - TMEM199
+  - EXOSC2
+  - mtch2
+  - zgc:112296
+  - Txndc17
+  - zgc:66441
+  - vapa
+  - zgc:73136
+  - zgc:153710
+  - ctsl1a
+  - UBE2A
+  - ndel1b
+  - TIMM8B
+  - zgc:111960
+  - zgc:193725
+  - PSME3
+  - zgc:152998
+  - smpdm
+  - tnnc1
+  - PLK1
+  - actl6a
+  - MT
+  - TOP2A
+  - NUSAP1
+  - si:ch211-147h1.3
+  - SGSM3
+  - ivns1abpa
+  - ppp4r2a
+  - znf207b
+  - BCL7A
+  - zgc:158374
+  - zgc:153208
+  - Bcl2l10
+  - u2af2b
+  - TDG
+  - dlg1l
+  - CDC42BPB
+  - CRMP1
+  - UBE2G2
+  - fam73a
+  - LOC100004076
+  - nan
+  - gfra1a
+  - zgc:153597
+  - adam10b
+  - Tbc1d17
+  - znrf1
+  - TCF12
+  - CLIC2
+  - sepm
+  - dync1i2a
+  - Psen1
+  - zgc:73143
+  - RIPPLY1
+  - si:ch211-106a19.2
+  - BCAT1
+  - Ube2q1
+  - ankhb
+  - PI4K2A
+  - si:ch73-52e5.2
+  - appA
+  - Med7
+  - FOXRED2
+  - si:dkey-77p13.2
+  - mntB
+  - UAP1
+  - zgc:103638
+  - nrxn1b
+  - PTPRA
+  - nan
+  - CDH17
+  - dtx1
+  - ZDHHC16
+  - si:ch211-235e18.3
+  - PSAP
+  - sept4a
+  - Tmem50a
+  - WWP1
+  - Ube2h
+  - zgc:158292
+  - cd9a
+  - ACVR1B
+  - dusp6
+  - ARL4D
+  - SLC38A7
+  - grina
+  - Id3
+  - wnt4a
+  - si:dkey-9e15.1
+  - zgc:101058
+  - zgc:194693
+  - celf3
+  - ptp4a1
+  - GUCA1A
+  - itgb1a
+  - tph1a
+  - zgc:77112
+  - NEXN
+  - HEY1
+  - GUK1
+  - zgc:92198
+  - si:dkey-46a12.1
+  - zgc:158292
+  - nptx2b
+  - TNFRSF21
+  - zgc:158340
+  - BMPER
+  - jag1a
+  - DRP2
+  - zgc:77057
+  - azin1a
+  - zgc:193698
+  - zgc:175180
+  - Wdfy1
+  - si:dkey-273o13.5
+  - nan
+  - XKR6
+  - si:ch211-251j10.4
+  - hoxb8b
+  - STYXL1
+  - si:dkey-69h9.1
+  - shda
+  - zgc:63466
+  - nan
+  - kdm6bb
+  - HEATR1
+  - zgc:77214
+  - snRK1
+  - TUBGCP3
+  - LOC100148221
+  - THSD7A
+  - RBPMS2
+  - LOC566207
+  - aif1l
+  - si:dkey-21k4.4
+  - zgc:77551
+  - zgc:101722
+  - zgc:109949
+  - id2b
+  - ARL13B
+  - prom1b
+  - rcv1
+  - NFS1
+  - gnb3a
+  - hdac9b
+  - si:ch211-210h11.10
+  - TFAP2C
+  - zgc:109949
+  - zgc:171489
+  - gsdf
+  - Gnb1l
+  - zgc:109962
+  - JAG2
+  - zgc:162885
+  - Pard3
+  - gro1
+  - zgc:153098
+  - zgc:162232
+  - zgc:109782
+  - KLHL18
+  - GXYLT1
+  - PLXNA1
+  - nan
+  - Fkbp1b
+  - zgc:76925
+  - slc25a1
+  - zgc:110314
+  - gem
+  - ppp4cb
+  - Tsga14
+  - add3a
+  - zgc:158138
+  - Pskh1
+  - pcdh1gc5
+  - Arih2
+  - nan
+  - pcdh2g28
+  - asap2a
+  - dnaja2l
+  - TARDBP
+  - eif4e3
+  - zgc:110314
+  - zgc:110314
+  - si:dkey-259n11.1
+  - nan
+  - zgc:172298
+  - zgc:63600
+  - zgc:55512
+  - DCLK1
+  - zgc:112097
+  - IFT20
+  - zgc:92181
+  - zgc:193593
+  - CLIC1
+  - zgc:113183
+  - myo6b
+  - fbn2b
+  - zgc:110219
+  - zgc:153423
+  - twsg1b
+  - ndrg1l
+  - cry2b
+  - MTA3
+  - zgc:158564
+  - zgc:158258
+  - Mapre1
+  - zgc:55536
+  - PPP2R1A
+  - TMEM49
+  - Acpl2
+  - Frem3
+  - zgc:103688
+  - ldlrap1b
+  - tecrb
+  - cdk8
+  - zgc:103404
+  - nan
+  - TMEM165
+  - tspan18b
+  - pcdh2ab10
+  - pbx1a
+  - ISOC1
+  - pcm1
+  - STX6
+  - kpna3
+  - ETNK2
+  - papss1
+  - FAM164A
+  - zgc:162816
+  - zgc:112998
+  - si:dkey-21h14.1
+  - rac1
+  - six7
+  - zgc:136572
+  - zgc:173486
+
+Cluster_6 (276 genes):
+----------------------------------------
+  - cebp1
+  - rars
+  - Mki67ip
+  - zgc:101594
+  - PMPCB
+  - AKR1B1
+  - CLDN19
+  - DDA1
+  - pnp6
+  - Pcmt
+  - msto1
+  - si:dkey-20d21.7
+  - zgc:173594
+  - aqp1a.1
+  - zgc:110180
+  - DDX55
+  - Crb1
+  - atp1b2b
+  - zgc:110003
+  - arl3l1
+  - ENTPD1
+  - pop5
+  - bysl
+  - ddx54
+  - zgc:153296
+  - NOP14
+  - DKC1
+  - Apex1
+  - HSPA9
+  - PGK1
+  - zgc:92127
+  - bccip
+  - NOL6
+  - bms1l
+  - rdh1l
+  - Nop56
+  - aldoaa
+  - si:ch211-103f16.2
+  - zgc:92746
+  - zgc:194766
+  - tsr1
+  - tkt
+  - phyhd1
+  - PPAT
+  - pgm1
+  - zgc:110815
+  - Tmem2
+  - zgc:63553
+  - zgc:153892
+  - nan
+  - PROSC
+  - oaz2l
+  - POU6F1
+  - PPP1R13B
+  - slc17a7
+  - LOC798210
+  - WDR43
+  - nr1i2
+  - LOXL3
+  - surf6l
+  - zgc:136844
+  - cry1a
+  - zgc:103511
+  - prlra
+  - bcl6ab
+  - Brp16
+  - zgc:55695
+  - si:dkey-151c10.1
+  - hnrpr
+  - st6gal2-r
+  - dhodh
+  - mobkl1ab
+  - adam10b
+  - efna1b
+  - zgc:153625
+  - zgc:123203
+  - cyp2j24
+  - zgc:85939
+  - ALDH4A1
+  - csnk1da
+  - nr1d2b
+  - Elovl5
+  - zgc:174864
+  - tob1a
+  - bhlhe40
+  - dedd1
+  - ABCB4
+  - cyp2j30
+  - zgc:162331
+  - hig1
+  - csnk1db
+  - SLC25A33
+  - vapal
+  - MRPS34
+  - zgc:136752
+  - ncaldb
+  - adcy1b
+  - zgc:153914
+  - Gnl3l
+  - Gins1
+  - zgc:101635
+  - zgc:77397
+  - hsf2
+  - si:ch211-132b12.7
+  - arg2
+  - slc2a1a
+  - zgc:162144
+  - cdc14ab
+  - zgc:65895
+  - zgc:174881
+  - MST1
+  - LOC100002676
+  - nan
+  - fut8
+  - nan
+  - waslb
+  - Dopey2
+  - zgc:158677
+  - zgc:154093
+  - zgc:77395
+  - zgc:194737
+  - ankha
+  - TTC39C
+  - sh3gl2
+  - per3
+  - per1b
+  - mycb
+  - AATF
+  - zgc:63634
+  - smad3a
+  - si:ch211-199o1.5
+  - PIK3R2
+  - mknk2b
+  - gnl1
+  - atf7b
+  - bnip3l2
+  - fgf13
+  - SPAG1
+  - NMD3
+  - zgc:66419
+  - UNC119B
+  - nan
+  - POLDIP2
+  - cebp1
+  - si:dkey-82d4.3
+  - zgc:173594
+  - zgc:101720
+  - HSPD1
+  - HK1
+  - WDR75
+  - Pwp2h
+  - capza1a
+  - Pepd
+  - ddx39b
+  - c10orf119
+  - stt3b
+  - DRG1
+  - noc2l
+  - zgc:77127
+  - zgc:63480
+  - UBAP1
+  - mat1a
+  - zgc:158222
+  - zgc:110684
+  - SLC2A12
+  - zgc:85944
+  - bcl7b
+  - pa2g4b
+  - ivd
+  - dynll1
+  - nsun2
+  - cnn3a
+  - POLR3C
+  - Gpr183
+  - zgc:103754
+  - zgc:65749
+  - IMMT
+  - zgc:65779
+  - zgc:101122
+  - Cd8a
+  - si:ch211-234f20.7
+  - Mrpl3
+  - metap2
+  - sec14l1
+  - LOC100003209
+  - sorbs3
+  - RPF2
+  - ACSF2
+  - DDB2
+  - TAGLN2
+  - EFCAB4A
+  - pfkfb3
+  - sh2d3cb
+  - trim3b
+  - LOC567448
+  - zgc:85909
+  - si:ch211-63o20.5
+  - zgc:123105
+  - gna13b
+  - zgc:123180
+  - CEBPG
+  - si:dkey-239i20.4
+  - si:ch211-197n10.4
+  - pdcd6
+  - c21orf59l
+  - BZW2
+  - RNF145
+  - gnl3
+  - zgc:66337
+  - RASL11B
+  - tef
+  - Ppp1r14a
+  - Chtf18
+  - atp1b3a
+  - pdcd4b
+  - zgc:91802
+  - regulation of transcription, DNA-dependent
+  - ADCY7
+  - usp1
+  - cry-dash
+  - mid1ip1
+  - LOC563601
+  - ASB5
+  - per1a
+  - Cry3
+  - hspb6
+  - moxd1l
+  - CYP27C1
+  - GFAP
+  - rpe65a
+  - zgc:110626
+  - zgc:158718
+  - zgc:92316
+  - angptl7
+  - zgc:110388
+  - zgc:153384
+  - zgc:171753
+  - rhoub
+  - mylipb
+  - gbp
+  - snx18a
+  - zgc:153910
+  - FAM40A
+  - zgc:158785
+  - CRCP
+  - Gfer
+  - zgc:123307
+  - zgc:100952
+  - LAMB1
+  - csf1a
+  - RBM28
+  - bcdo2l
+  - kntc2l
+  - zgc:113305
+  - srd5a2a
+  - si:ch211-217k17.10
+  - CNTFR
+  - zgc:162401
+  - GPR182
+  - WDR74
+  - si:ch211-173o4.2
+  - zgc:113385
+  - npffl
+  - si:dkey-12o15.1
+  - si:dkey-94e7.2
+  - arr3l
+  - GDI2
+  - gli2b
+  - ADAT1
+  - LYCAT
+  - NOP16
+  - Polr1b
+  - FRYL
+  - TGFB3
+  - si:ch211-283h6.6
+  - zgc:171731
+
+Results saved to 'Part3_clustering_results.txt'
