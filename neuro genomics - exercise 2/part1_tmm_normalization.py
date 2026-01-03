@@ -1,10 +1,6 @@
 """
 Neuro-Genomics Exercise 2 - Part 1: TMM Normalization
-
-This module implements TMM (Trimmed Mean of M-values) normalization
-for RNA-seq data as described in the exercise instructions.
-
-DO NOT use built-in normalization functions - this is a custom implementation.
+This module implements TMM normalization for RNA-seq data.
 """
 
 import numpy as np
@@ -18,7 +14,7 @@ def tmm_normalize(X: np.ndarray, Y: np.ndarray, D: float = 0.3) -> tuple:
     Parameters
     ----------
     X : np.ndarray
-        Reference expression vector (will not be modified)
+        Reference expression vector 
     Y : np.ndarray
         Expression vector to be normalized
     D : float
@@ -47,15 +43,14 @@ def tmm_normalize(X: np.ndarray, Y: np.ndarray, D: float = 0.3) -> tuple:
     Y = np.array(Y, dtype=float)
     
     # Validate inputs
-    if len(X) != len(Y):
-        raise ValueError("X and Y must have the same length")
-    if not 0 <= D <= 1:
-        raise ValueError("D must be between 0 and 1")
+    #if len(X) != len(Y):
+    #    raise ValueError("X and Y must have the same length")
+    #if not 0 <= D <= 1:
+     #   raise ValueError("D must be between 0 and 1")
     
     # Step 2: Compute M folds (log fold changes)
     # Only compute for genes where both X_i and Y_i are > 0
     valid_mask = (X > 0) & (Y > 0)
-    
     X_valid = X[valid_mask]
     Y_valid = Y[valid_mask]
     
@@ -94,24 +89,6 @@ def tmm_normalize(X: np.ndarray, Y: np.ndarray, D: float = 0.3) -> tuple:
     Y_corrected = Y / correction_factor
     
     # Step 8: Generate plots
-    _plot_histograms(X, Y, Y_corrected)
-    
-    return X, Y_corrected, correction_factor
-
-
-def _plot_histograms(X: np.ndarray, Y: np.ndarray, Y_corrected: np.ndarray):
-    """
-    Plot histograms before and after normalization.
-    
-    Parameters
-    ----------
-    X : np.ndarray
-        Reference vector
-    Y : np.ndarray
-        Original vector (before normalization)
-    Y_corrected : np.ndarray
-        Corrected vector (after normalization)
-    """
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
     
     # Filter out zeros for better visualization (log scale)
@@ -148,6 +125,8 @@ def _plot_histograms(X: np.ndarray, Y: np.ndarray, Y_corrected: np.ndarray):
     plt.savefig('Part1_TMM_normalization.png', dpi=150)
     plt.close()
     print("Plot saved as 'Part1_TMM_normalization.png'")
+    
+    return X, Y_corrected, correction_factor
 
 
 # =============================================================================
@@ -161,22 +140,14 @@ if __name__ == "__main__":
     print("Part 1: TMM Normalization")
     print("=" * 70)
     
-    # Load pasilla data
-    # Try to load from URL first, then from local file
-    pasilla_url = "neuro genomics - exercise 2/pasilla_gene_counts.tsv"
-    
+    # Load pasilla data from local file
     try:
-        cts = pd.read_csv(pasilla_url, sep='\t', index_col='gene_id')
-        print("Loaded pasilla data from URL")
-    except:
-        # Try local file
-        try:
-            cts = pd.read_csv("pasilla_gene_counts.tsv", sep='\t', index_col='gene_id')
-            print("Loaded pasilla data from local file")
-        except:
-            print("Error: Could not load pasilla data.")
-            print("Please download from: https://github.com/Bioconductor/pasilla")
-            exit(1)
+        cts = pd.read_csv("pasilla_gene_counts.tsv", sep='\t', index_col='gene_id')
+        print("Loaded pasilla data from local file")
+    except Exception as e:
+        print("Error: Could not load pasilla data from local file.")
+        print(str(e))
+        exit(1)
     
     print(f"\nData shape: {cts.shape}")
     print(f"Samples: {list(cts.columns)}")

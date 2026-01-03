@@ -1,10 +1,6 @@
 """
 Neuro-Genomics Exercise 2 - Part 1: Quantile Normalization
-
 This module implements Quantile normalization for RNA-seq data
-as described in the exercise instructions.
-
-DO NOT use built-in normalization functions - this is a custom implementation.
 """
 
 import numpy as np
@@ -24,7 +20,7 @@ def quantile_normalize(X: np.ndarray, Y: np.ndarray) -> tuple:
     X : np.ndarray
         First expression vector (reference)
     Y : np.ndarray
-        Second expression vector
+        Second expression vector 
     
     Returns
     -------
@@ -39,20 +35,19 @@ def quantile_normalize(X: np.ndarray, Y: np.ndarray) -> tuple:
     2. Calculate the mean across vectors for each rank position
     3. Assign the mean values back to the original positions
     
-    Assumption: Each vector contains only unique values (as per instructions)
+    Assumption: Each vector contains only unique values 
     """
     # Ensure inputs are numpy arrays
     X = np.array(X, dtype=float)
     Y = np.array(Y, dtype=float)
     
     # Validate inputs
-    if len(X) != len(Y):
-        raise ValueError("X and Y must have the same length")
+    #if len(X) != len(Y):
+     #   raise ValueError("X and Y must have the same length")
     
     n = len(X)
     
     # Step 1: Get the ranks (sorted order) for each vector
-    # argsort gives the indices that would sort the array
     X_rank_indices = np.argsort(X)  # Indices to sort X
     Y_rank_indices = np.argsort(Y)  # Indices to sort Y
     
@@ -60,46 +55,19 @@ def quantile_normalize(X: np.ndarray, Y: np.ndarray) -> tuple:
     X_sorted = X[X_rank_indices]
     Y_sorted = Y[Y_rank_indices]
     
-    # Step 2: Calculate the mean value at each rank position
-    # This creates the "target distribution"
+    # Step 2: Calculate the mean value at each rank position which creates "target distribution"
     mean_values = (X_sorted + Y_sorted) / 2
     
-    # Step 3: Assign the mean values back to original positions
-    # We need to "unsort" - put mean values back in original order
-    
+    # Step 3: Assign the mean values back to original positions  
     # Create output arrays
     X_corrected = np.zeros(n)
     Y_corrected = np.zeros(n)
     
-    # For X: the i-th smallest value in X should be replaced by mean_values[i]
-    # X_rank_indices[i] is the original position of the i-th smallest value
+    # For X and Y: the i-th smallest value should be replaced by mean_values[i]
     X_corrected[X_rank_indices] = mean_values
-    
-    # For Y: same logic
     Y_corrected[Y_rank_indices] = mean_values
     
-    # Generate plots
-    _plot_histograms(X, Y, X_corrected, Y_corrected)
-    
-    return X_corrected, Y_corrected
-
-
-def _plot_histograms(X: np.ndarray, Y: np.ndarray, 
-                     X_corrected: np.ndarray, Y_corrected: np.ndarray):
-    """
-    Plot histograms before and after quantile normalization.
-    
-    Parameters
-    ----------
-    X : np.ndarray
-        Original X vector
-    Y : np.ndarray
-        Original Y vector
-    X_corrected : np.ndarray
-        Normalized X vector
-    Y_corrected : np.ndarray
-        Normalized Y vector
-    """
+    # Step 4: Generate plots
     fig, axes = plt.subplots(1, 2, figsize=(14, 5))
     
     # Filter out zeros for better visualization (log scale)
@@ -138,7 +106,9 @@ def _plot_histograms(X: np.ndarray, Y: np.ndarray,
     plt.savefig('Part1_Quantile_normalization.png', dpi=150)
     plt.close()
     print("Plot saved as 'Part1_Quantile_normalization.png'")
-
+    
+    return X_corrected, Y_corrected
+   
 
 # =============================================================================
 # Main execution - Run on pasilla data
@@ -151,19 +121,14 @@ if __name__ == "__main__":
     print("Part 1: Quantile Normalization")
     print("=" * 70)
     
-    # Load pasilla data
-    pasilla_url = "neuro genomics - exercise 2/pasilla_gene_counts.tsv"
-    
+   # Load pasilla data from local file
     try:
-        cts = pd.read_csv(pasilla_url, sep='\t', index_col='gene_id')
-        print("Loaded pasilla data from URL")
-    except:
-        try:
-            cts = pd.read_csv("pasilla_gene_counts.tsv", sep='\t', index_col='gene_id')
-            print("Loaded pasilla data from local file")
-        except:
-            print("Error: Could not load pasilla data.")
-            exit(1)
+        cts = pd.read_csv("pasilla_gene_counts.tsv", sep='\t', index_col='gene_id')
+        print("Loaded pasilla data from local file")
+    except Exception as e:
+        print("Error: Could not load pasilla data from local file.")
+        print(str(e))
+        exit(1)
     
     print(f"\nData shape: {cts.shape}")
     print(f"Samples: {list(cts.columns)}")

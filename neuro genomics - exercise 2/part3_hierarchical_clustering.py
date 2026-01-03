@@ -1,19 +1,13 @@
 """
 Neuro-Genomics Exercise 2 - Part 3: Hierarchical Clustering
-
-This module implements hierarchical clustering using average linkage (UPGMA).
-DO NOT use built-in clustering functions - this is a custom implementation.
-
-The only built-in function allowed is for Pearson correlation calculation.
+This module implements hierarchical clustering using average linkage.
 """
 
 import numpy as np
 import pandas as pd
 
 
-def hierarchical_clustering(expression_matrix: np.ndarray, 
-                           gene_names: list, 
-                           K: int) -> dict:
+def hierarchical_clustering(expression_matrix: np.ndarray, gene_names: list, K: int) -> dict:
     """
     Perform hierarchical clustering on gene expression data.
     
@@ -32,19 +26,12 @@ def hierarchical_clustering(expression_matrix: np.ndarray,
     -------
     dict
         Dictionary mapping cluster ID to list of gene names in that cluster.
-    
-    Raises
-    ------
-    ValueError
-        If K >= N (number of genes)
-    
+           
     Notes
     -----
-    Algorithm (Average Linkage / UPGMA):
-    
+    Average Linkage Algorithm:    
     1. Preparation: Compute distance matrix d using Pearson correlation.
-       d_ij = 1 - R_ij (where R is Pearson correlation)
-       
+       d_ij = 1 - R_ij (where R is Pearson correlation)       
     2. Iteration:
        a. Find the two closest clusters i and j
        b. Merge them into a new cluster (ij)
@@ -78,14 +65,9 @@ def hierarchical_clustering(expression_matrix: np.ndarray,
     for i in range(N):
         for j in range(i + 1, N):
             # Compute Pearson correlation between gene i and gene j
-            # Using numpy's corrcoef (allowed per instructions)
             corr_matrix = np.corrcoef(expression_matrix[i, :], expression_matrix[j, :])
             R = corr_matrix[0, 1]
-            
-            # Handle NaN (can occur if variance is zero)
-            if np.isnan(R):
-                R = 0
-            
+                        
             # Distance = 1 - R
             # R = 1 (identical) -> d = 0
             # R = 0 (uncorrelated) -> d = 1
@@ -108,7 +90,7 @@ def hierarchical_clustering(expression_matrix: np.ndarray,
     
     # Current distance matrix D (initially same as d)
     # D will be updated as clusters merge
-    # We'll use a dictionary to track distances between active clusters
+    # Distances between active clusters will be tracked using a dictionary
     D = {}
     active_clusters = set(range(N))
     
@@ -116,10 +98,7 @@ def hierarchical_clustering(expression_matrix: np.ndarray,
         for j in range(i + 1, N):
             D[(i, j)] = d[i, j]
             D[(j, i)] = d[j, i]
-    
-    # Track the original distance matrix for UPGMA calculation
-    original_d = d.copy()
-    
+          
     # Next available cluster ID for merged clusters
     next_cluster_id = N
     
@@ -131,8 +110,8 @@ def hierarchical_clustering(expression_matrix: np.ndarray,
     print(f"\nPerforming {n_iterations} merge iterations...")
     
     for iteration in range(n_iterations):
-        if (iteration + 1) % 50 == 0 or iteration == 0:
-            print(f"  Iteration {iteration + 1}/{n_iterations}, clusters remaining: {len(active_clusters)}")
+       # if (iteration + 1) % 50 == 0 or iteration == 0:
+       #     print(f"  Iteration {iteration + 1}/{n_iterations}, clusters remaining: {len(active_clusters)}")
         
         # Step 1: Find the two closest clusters
         min_dist = np.inf
@@ -175,8 +154,7 @@ def hierarchical_clustering(expression_matrix: np.ndarray,
             D_ik = D.get(key_ik, 0)
             D_jk = D.get(key_jk, 0)
             
-            # Weighted average (UPGMA formula)
-            # D_(ij),k = (n_i * D_i,k + n_j * D_j,k) / (n_i + n_j)
+            # Weighted average 
             D_new_k = (n_i * D_ik + n_j * D_jk) / (n_i + n_j)
             
             D[(new_cluster_id, k)] = D_new_k
@@ -187,7 +165,7 @@ def hierarchical_clustering(expression_matrix: np.ndarray,
         active_clusters.remove(merge_j)
         active_clusters.add(new_cluster_id)
         
-        # Clean up old cluster entries (optional, for memory efficiency)
+        # Clean up old cluster entries 
         del clusters[merge_i]
         del clusters[merge_j]
         del cluster_sizes[merge_i]
@@ -228,40 +206,12 @@ if __name__ == "__main__":
     print("Part 3: Hierarchical Clustering")
     print("=" * 70)
     
-    # Try to load circadian genes from Part 2 output
-    try:
-        # Load expression data
-        expr_df = pd.read_csv('circadian_genes_expression.csv', index_col=0)
-        print(f"Loaded circadian gene expression data: {expr_df.shape}")
-        
-        expression_matrix = expr_df.values
-        gene_names = list(expr_df.index)
-        
-    except FileNotFoundError:
-        print("Circadian gene data not found. Running Part 2 first...")
-        print("Please run part2_circadian_permutation.py first to generate the data.")
-        
-        # Create sample data for testing
-        print("\nUsing sample data for demonstration...")
-        np.random.seed(42)
-        
-        # Create 20 genes with 12 time points
-        n_genes = 20
-        n_timepoints = 12
-        
-        # Create some correlated patterns
-        base_pattern = np.sin(np.linspace(0, 4*np.pi, n_timepoints))
-        
-        expression_matrix = np.zeros((n_genes, n_timepoints))
-        gene_names = [f"Gene_{i+1}" for i in range(n_genes)]
-        
-        for i in range(n_genes):
-            # Add variation to base pattern
-            phase_shift = np.random.uniform(0, np.pi)
-            amplitude = np.random.uniform(0.5, 2)
-            noise = np.random.normal(0, 0.2, n_timepoints)
-            
-            expression_matrix[i, :] = amplitude * np.sin(np.linspace(0, 4*np.pi, n_timepoints) + phase_shift) + noise + 5
+    # Load expression data from Part 2 output
+    expr_df = pd.read_csv('circadian_genes_expression.csv', index_col=0)
+    print(f"Loaded circadian gene expression data: {expr_df.shape}")
+    
+    expression_matrix = expr_df.values
+    gene_names = list(expr_df.index)
     
     print(f"\nExpression matrix shape: {expression_matrix.shape}")
     print(f"Number of genes: {len(gene_names)}")
@@ -272,12 +222,7 @@ if __name__ == "__main__":
     
     try:
         result = hierarchical_clustering(expression_matrix, gene_names, K)
-        
-        # Save results
-        print("\n" + "=" * 70)
-        print("Saving results...")
-        print("=" * 70)
-        
+                     
         # Save to file
         with open('Part3_clustering_results.txt', 'w') as f:
             f.write("=" * 70 + "\n")
@@ -291,16 +236,6 @@ if __name__ == "__main__":
                     f.write(f"  - {gene}\n")
         
         print("Results saved to 'Part3_clustering_results.txt'")
-        
-        # Also save as CSV for easier processing
-        rows = []
-        for cluster_name, genes in result.items():
-            for gene in genes:
-                rows.append({'Cluster': cluster_name, 'Gene': gene})
-        
-        result_df = pd.DataFrame(rows)
-        result_df.to_csv('Part3_clustering_results.csv', index=False)
-        print("Results also saved to 'Part3_clustering_results.csv'")
         
     except ValueError as e:
         print(f"Error: {e}")
