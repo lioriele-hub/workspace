@@ -2,9 +2,9 @@
 DESCRIPTION OF ERP RESPONSE IN CHANNEL 7:
 
 1. FACES CONDITION:
-   - The ERP shows a characteristic negative deflection (trough) around 1ms
-   - Peak amplitude: 6.08 μV at 98ms
-   - Trough amplitude: -10.52 μV at 520ms
+   - The ERP shows a characteristic negative deflection (trough) around 520ms
+   - Peak amplitude: 6.08 μV at 97656ms
+   - Trough amplitude: -10.52 μV at 519531ms
    - This negative component is consistent with the N170 ERP component, which is 
      known to be particularly sensitive to face processing
    
