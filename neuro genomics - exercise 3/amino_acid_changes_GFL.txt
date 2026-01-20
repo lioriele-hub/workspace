@@ -1,0 +1,26 @@
+Amino Acid Modifications - Giant Fiber Lobe (GFL)
+============================================================
+Rank  Change         Count     Description
+------------------------------------------------------------
+1     synonymous     106       Silent mutation
+2     KR             39        Lysine → Arginine
+3     QR             20        Glutamine → Arginine
+4     SG             15        Serine → Glycine
+5     NS             14        Asparagine → Serine
+6     EG             10        Glutamate → Glycine
+7     TA             10        Threonine → Alanine
+8     ND             9         Asparagine → Aspartate
+9     IV             9         Isoleucine → Valine
+10    RG             8         Arginine → Glycine
+11    KE             4         Lysine → Glutamate
+12    MV             3         Methionine → Valine
+13    YC             3         Tyrosine → Cysteine
+14    RK             2         Arginine → Lysine
+15    GR             1         Glycine → Arginine
+16    GE             1         Glycine → Glutamate
+17    AT             1         Alanine → Threonine
+18    GS             1         Glycine → Serine
+19    RQ             1         Arginine → Glutamine
+20    SN             1         Serine → Asparagine
+21    HR             1         Histidine → Arginine
+22    IM             1         Isoleucine → Methionine

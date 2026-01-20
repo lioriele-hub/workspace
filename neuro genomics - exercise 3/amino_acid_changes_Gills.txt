@@ -1,0 +1,6 @@
+Amino Acid Modifications - Gills (Peripheral Tissue)
+============================================================
+Rank  Change         Count     Description
+------------------------------------------------------------
+1     synonymous     4         Silent mutation
+2     IV             1         Isoleucine → Valine

@@ -1,0 +1,2870 @@
+# RNA Editing Analysis - Giant Fiber Lobe (GFL)
+# Mode: sample
+# Total ORF size for Bonferroni: 16619469
+# P-value cutoff (after Bonferroni): 3.01e-09
+
+
+============================================================
+Gene: comp141540_c0_seq3
+ORF: 721-7956
+============================================================
+
+Position: 752 (1-indexed: 753)
+Coverage: 2843
+  A: 2296
+  G: 170
+  T: 2
+  C: 0
+Modification: AG
+X (modified): 170, N (total): 2466
+P-value: 1.57e-244
+Amino acid change: synonymous
+
+Position: 753 (1-indexed: 754)
+Coverage: 2900
+  A: 2482
+  G: 136
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 136, N (total): 2618
+P-value: 4.57e-179
+Amino acid change: KE
+
+Position: 794 (1-indexed: 795)
+Coverage: 3624
+  A: 3195
+  G: 33
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 33, N (total): 3228
+P-value: 2.75e-22
+Amino acid change: synonymous
+
+Position: 883 (1-indexed: 884)
+Coverage: 4198
+  A: 3791
+  G: 31
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 31, N (total): 3822
+P-value: 3.09e-18
+Amino acid change: KR
+
+Position: 906 (1-indexed: 907)
+Coverage: 4112
+  A: 3528
+  G: 153
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 153, N (total): 3681
+P-value: 2.38e-186
+Amino acid change: SG
+
+Position: 952 (1-indexed: 953)
+Coverage: 3979
+  A: 3677
+  G: 53
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 53, N (total): 3730
+P-value: 8.74e-42
+Amino acid change: KR
+
+Position: 1044 (1-indexed: 1045)
+Coverage: 5365
+  A: 3930
+  G: 41
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 41, N (total): 3971
+P-value: 1.89e-27
+Amino acid change: ND
+
+Position: 1045 (1-indexed: 1046)
+Coverage: 5369
+  A: 4355
+  G: 25
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 25, N (total): 4380
+P-value: 1.01e-11
+Amino acid change: NS
+
+Position: 1054 (1-indexed: 1055)
+Coverage: 4957
+  A: 4067
+  G: 63
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 63, N (total): 4130
+P-value: 3.65e-51
+Amino acid change: KR
+
+Position: 1092 (1-indexed: 1093)
+Coverage: 4388
+  A: 3861
+  G: 66
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 66, N (total): 3927
+P-value: 3.82e-56
+Amino acid change: IV
+
+Position: 1096 (1-indexed: 1097)
+Coverage: 4380
+  A: 3961
+  G: 21
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 21, N (total): 3982
+P-value: 1.72e-09
+Amino acid change: QR
+
+Position: 1111 (1-indexed: 1112)
+Coverage: 4135
+  A: 3709
+  G: 122
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 122, N (total): 3831
+P-value: 5.32e-135
+Amino acid change: KR
+
+Position: 1124 (1-indexed: 1125)
+Coverage: 3819
+  A: 2191
+  G: 1278
+  C: 1
+  T: 0
+Modification: AG
+X (modified): 1278, N (total): 3469
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 1137 (1-indexed: 1138)
+Coverage: 4183
+  A: 3610
+  G: 41
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 41, N (total): 3651
+P-value: 8.07e-29
+Amino acid change: IV
+
+Position: 1144 (1-indexed: 1145)
+Coverage: 4435
+  A: 3814
+  G: 126
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 126, N (total): 3940
+P-value: 1.37e-139
+Amino acid change: KR
+
+Position: 1165 (1-indexed: 1166)
+Coverage: 4349
+  G: 2261
+  A: 1614
+  C: 3
+  T: 1
+Modification: GA
+X (modified): 1614, N (total): 3875
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 1171 (1-indexed: 1172)
+Coverage: 4635
+  A: 4117
+  G: 28
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 28, N (total): 4145
+P-value: 1.11e-14
+Amino acid change: QR
+
+Position: 1172 (1-indexed: 1173)
+Coverage: 4543
+  A: 2595
+  G: 1440
+  C: 2
+  T: 0
+Modification: AG
+X (modified): 1440, N (total): 4035
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 1218 (1-indexed: 1219)
+Coverage: 5064
+  A: 4375
+  G: 28
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 28, N (total): 4403
+P-value: 4.71e-14
+Amino acid change: MV
+
+Position: 1230 (1-indexed: 1231)
+Coverage: 4999
+  A: 4495
+  G: 39
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 39, N (total): 4534
+P-value: 2.09e-23
+Amino acid change: ND
+
+Position: 1237 (1-indexed: 1238)
+Coverage: 4682
+  G: 2876
+  A: 1312
+  T: 1
+  C: 0
+Modification: GA
+X (modified): 1312, N (total): 4188
+P-value: 0.00e+00
+Amino acid change: RK
+
+Position: 1240 (1-indexed: 1241)
+Coverage: 4834
+  A: 4197
+  G: 23
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 23, N (total): 4220
+P-value: 1.60e-10
+Amino acid change: EG
+
+Position: 1241 (1-indexed: 1242)
+Coverage: 4793
+  A: 3827
+  G: 432
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 432, N (total): 4259
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 1251 (1-indexed: 1252)
+Coverage: 4914
+  A: 4083
+  G: 37
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 37, N (total): 4120
+P-value: 6.56e-23
+Amino acid change: TA
+
+Position: 1259 (1-indexed: 1260)
+Coverage: 5329
+  A: 4693
+  G: 229
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 229, N (total): 4922
+P-value: 4.00e-289
+Amino acid change: synonymous
+
+Position: 1262 (1-indexed: 1263)
+Coverage: 5345
+  A: 4708
+  G: 197
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 197, N (total): 4905
+P-value: 1.94e-236
+Amino acid change: synonymous
+
+Position: 1271 (1-indexed: 1272)
+Coverage: 5389
+  A: 4844
+  G: 33
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 33, N (total): 4877
+P-value: 4.84e-17
+Amino acid change: synonymous
+
+Position: 1321 (1-indexed: 1322)
+Coverage: 5057
+  A: 4569
+  G: 129
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 129, N (total): 4698
+P-value: 1.74e-134
+Amino acid change: KR
+
+Position: 1354 (1-indexed: 1355)
+Coverage: 5914
+  A: 3709
+  G: 1539
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 1539, N (total): 5248
+P-value: 0.00e+00
+Amino acid change: EG
+
+Position: 1359 (1-indexed: 1360)
+Coverage: 5790
+  A: 4921
+  G: 48
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 48, N (total): 4969
+P-value: 1.37e-30
+Amino acid change: ND
+
+Position: 1388 (1-indexed: 1389)
+Coverage: 6009
+  A: 5521
+  G: 38
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 38, N (total): 5559
+P-value: 1.60e-19
+Amino acid change: synonymous
+
+Position: 1389 (1-indexed: 1390)
+Coverage: 6007
+  A: 5365
+  G: 100
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 100, N (total): 5465
+P-value: 1.22e-87
+Amino acid change: SG
+
+Position: 1413 (1-indexed: 1414)
+Coverage: 6209
+  A: 5089
+  G: 133
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 133, N (total): 5222
+P-value: 2.34e-134
+Amino acid change: TA
+
+Position: 1416 (1-indexed: 1417)
+Coverage: 6165
+  A: 4571
+  G: 374
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 374, N (total): 4945
+P-value: 0.00e+00
+Amino acid change: TA
+
+Position: 1447 (1-indexed: 1448)
+Coverage: 5895
+  A: 5127
+  G: 80
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 80, N (total): 5207
+P-value: 1.02e-64
+Amino acid change: QR
+
+Position: 1448 (1-indexed: 1449)
+Coverage: 5866
+  A: 5023
+  G: 166
+  T: 2
+  C: 0
+Modification: AG
+X (modified): 166, N (total): 5189
+P-value: 2.64e-183
+Amino acid change: synonymous
+
+Position: 1456 (1-indexed: 1457)
+Coverage: 5932
+  A: 5376
+  G: 60
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 60, N (total): 5436
+P-value: 5.74e-41
+Amino acid change: KR
+
+Position: 1466 (1-indexed: 1467)
+Coverage: 5842
+  A: 5204
+  G: 37
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 37, N (total): 5241
+P-value: 1.69e-19
+Amino acid change: synonymous
+
+Position: 1503 (1-indexed: 1504)
+Coverage: 5697
+  A: 5127
+  G: 92
+  T: 2
+  C: 0
+Modification: AG
+X (modified): 92, N (total): 5219
+P-value: 2.34e-79
+Amino acid change: IV
+
+Position: 1548 (1-indexed: 1549)
+Coverage: 5612
+  A: 5005
+  G: 29
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 29, N (total): 5034
+P-value: 1.90e-13
+Amino acid change: SG
+
+Position: 1637 (1-indexed: 1638)
+Coverage: 5232
+  A: 4300
+  G: 331
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 331, N (total): 4631
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 1652 (1-indexed: 1653)
+Coverage: 5505
+  A: 4748
+  G: 26
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 26, N (total): 4774
+P-value: 1.09e-11
+Amino acid change: synonymous
+
+Position: 1663 (1-indexed: 1664)
+Coverage: 5378
+  G: 4318
+  A: 270
+  T: 3
+  C: 0
+Modification: GA
+X (modified): 270, N (total): 4588
+P-value: 0.00e+00
+Amino acid change: RK
+
+Position: 1668 (1-indexed: 1669)
+Coverage: 5610
+  A: 3685
+  G: 118
+  C: 1
+  T: 0
+Modification: AG
+X (modified): 118, N (total): 3803
+P-value: 2.51e-129
+Amino acid change: TA
+
+Position: 1685 (1-indexed: 1686)
+Coverage: 5304
+  A: 4558
+  G: 42
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 42, N (total): 4600
+P-value: 4.73e-26
+Amino acid change: synonymous
+
+Position: 1717 (1-indexed: 1718)
+Coverage: 5246
+  A: 4605
+  G: 23
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 23, N (total): 4628
+P-value: 9.09e-10
+Amino acid change: QR
+
+Position: 1738 (1-indexed: 1739)
+Coverage: 5276
+  A: 4526
+  G: 116
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 116, N (total): 4642
+P-value: 1.69e-116
+Amino acid change: KR
+
+Position: 1780 (1-indexed: 1781)
+Coverage: 4998
+  A: 4460
+  G: 37
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 37, N (total): 4497
+P-value: 1.18e-21
+Amino acid change: KR
+
+Position: 1863 (1-indexed: 1864)
+Coverage: 5558
+  A: 4724
+  G: 67
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 67, N (total): 4791
+P-value: 6.37e-52
+Amino acid change: IV
+
+Position: 1884 (1-indexed: 1885)
+Coverage: 4949
+  A: 4214
+  G: 69
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 69, N (total): 4283
+P-value: 2.06e-57
+Amino acid change: IV
+
+Position: 1906 (1-indexed: 1907)
+Coverage: 4679
+  A: 4248
+  G: 82
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 82, N (total): 4330
+P-value: 2.27e-73
+Amino acid change: KR
+
+Position: 1907 (1-indexed: 1908)
+Coverage: 4704
+  A: 4292
+  G: 25
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 25, N (total): 4317
+P-value: 7.44e-12
+Amino acid change: synonymous
+
+Position: 1925 (1-indexed: 1926)
+Coverage: 4262
+  A: 3796
+  G: 27
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 27, N (total): 3823
+P-value: 1.15e-14
+Amino acid change: synonymous
+
+Position: 1971 (1-indexed: 1972)
+Coverage: 3620
+  A: 3178
+  G: 139
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 139, N (total): 3317
+P-value: 5.70e-170
+Amino acid change: RG
+
+Position: 1987 (1-indexed: 1988)
+Coverage: 3947
+  A: 3647
+  G: 34
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 34, N (total): 3681
+P-value: 1.48e-21
+Amino acid change: KR
+
+Position: 1992 (1-indexed: 1993)
+Coverage: 4001
+  A: 3507
+  G: 25
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 25, N (total): 3532
+P-value: 1.03e-13
+Amino acid change: TA
+
+Position: 2007 (1-indexed: 2008)
+Coverage: 4085
+  A: 3310
+  G: 358
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 358, N (total): 3668
+P-value: 0.00e+00
+Amino acid change: ND
+
+Position: 2008 (1-indexed: 2009)
+Coverage: 4142
+  A: 3689
+  G: 74
+  C: 1
+  T: 0
+Modification: AG
+X (modified): 74, N (total): 3763
+P-value: 1.50e-67
+Amino acid change: NS
+
+Position: 2015 (1-indexed: 2016)
+Coverage: 4336
+  A: 3874
+  G: 112
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 112, N (total): 3986
+P-value: 4.10e-118
+Amino acid change: synonymous
+
+Position: 2083 (1-indexed: 2084)
+Coverage: 5412
+  A: 4682
+  G: 43
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 43, N (total): 4725
+P-value: 1.41e-26
+Amino acid change: NS
+
+Position: 2175 (1-indexed: 2176)
+Coverage: 4531
+  A: 3713
+  G: 72
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 72, N (total): 3785
+P-value: 8.87e-65
+Amino acid change: TA
+
+Position: 2187 (1-indexed: 2188)
+Coverage: 4314
+  A: 3915
+  G: 21
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 21, N (total): 3936
+P-value: 1.41e-09
+Amino acid change: KE
+
+Position: 2254 (1-indexed: 2255)
+Coverage: 3671
+  A: 3344
+  G: 43
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 43, N (total): 3387
+P-value: 2.92e-32
+Amino acid change: KR
+
+Position: 2282 (1-indexed: 2283)
+Coverage: 3707
+  A: 3312
+  G: 44
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 44, N (total): 3356
+P-value: 1.52e-33
+Amino acid change: synonymous
+
+Position: 2299 (1-indexed: 2300)
+Coverage: 4020
+  A: 3614
+  G: 51
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 51, N (total): 3665
+P-value: 7.70e-40
+Amino acid change: KR
+
+Position: 2301 (1-indexed: 2302)
+Coverage: 3923
+  A: 3013
+  G: 490
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 490, N (total): 3503
+P-value: 0.00e+00
+Amino acid change: IV
+
+Position: 2304 (1-indexed: 2305)
+Coverage: 3939
+  G: 3059
+  A: 437
+  C: 0
+  T: 0
+Modification: GA
+X (modified): 437, N (total): 3496
+P-value: 0.00e+00
+Amino acid change: GR
+
+Position: 2305 (1-indexed: 2306)
+Coverage: 3892
+  G: 2872
+  A: 618
+  T: 1
+  C: 0
+Modification: GA
+X (modified): 618, N (total): 3490
+P-value: 0.00e+00
+Amino acid change: GE
+
+Position: 2317 (1-indexed: 2318)
+Coverage: 3870
+  A: 3511
+  G: 41
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 41, N (total): 3552
+P-value: 2.86e-29
+Amino acid change: EG
+
+Position: 2340 (1-indexed: 2341)
+Coverage: 4270
+  A: 3784
+  G: 52
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 52, N (total): 3836
+P-value: 4.92e-40
+Amino acid change: SG
+
+Position: 2455 (1-indexed: 2456)
+Coverage: 6060
+  A: 5539
+  G: 114
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 114, N (total): 5653
+P-value: 2.96e-104
+Amino acid change: KR
+
+Position: 2456 (1-indexed: 2457)
+Coverage: 6062
+  A: 5511
+  G: 44
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 44, N (total): 5555
+P-value: 8.50e-25
+Amino acid change: synonymous
+
+Position: 2461 (1-indexed: 2462)
+Coverage: 5955
+  A: 5368
+  G: 128
+  C: 1
+  T: 0
+Modification: AG
+X (modified): 128, N (total): 5496
+P-value: 1.51e-124
+Amino acid change: QR
+
+Position: 2462 (1-indexed: 2463)
+Coverage: 5945
+  A: 5002
+  G: 430
+  C: 1
+  T: 0
+Modification: AG
+X (modified): 430, N (total): 5432
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 2463 (1-indexed: 2464)
+Coverage: 5889
+  G: 3596
+  A: 1761
+  C: 1
+  T: 1
+Modification: GA
+X (modified): 1761, N (total): 5357
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 2472 (1-indexed: 2473)
+Coverage: 5978
+  A: 5450
+  G: 25
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 25, N (total): 5475
+P-value: 9.51e-10
+Amino acid change: RG
+
+Position: 2491 (1-indexed: 2492)
+Coverage: 6245
+  A: 5805
+  G: 50
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 50, N (total): 5855
+P-value: 2.15e-29
+Amino acid change: KR
+
+Position: 2503 (1-indexed: 2504)
+Coverage: 6084
+  A: 5487
+  G: 49
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 49, N (total): 5536
+P-value: 1.61e-29
+Amino acid change: NS
+
+Position: 2509 (1-indexed: 2510)
+Coverage: 6537
+  A: 5926
+  G: 32
+  T: 2
+  C: 0
+Modification: AG
+X (modified): 32, N (total): 5958
+P-value: 7.20e-14
+Amino acid change: KR
+
+Position: 2523 (1-indexed: 2524)
+Coverage: 6211
+  A: 5257
+  G: 387
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 387, N (total): 5644
+P-value: 0.00e+00
+Amino acid change: SG
+
+Position: 2539 (1-indexed: 2540)
+Coverage: 6200
+  A: 3931
+  G: 1717
+  C: 1
+  T: 1
+Modification: AG
+X (modified): 1717, N (total): 5648
+P-value: 0.00e+00
+Amino acid change: KR
+
+Position: 2588 (1-indexed: 2589)
+Coverage: 6484
+  A: 5715
+  G: 169
+  T: 2
+  C: 0
+Modification: AG
+X (modified): 169, N (total): 5884
+P-value: 8.28e-179
+Amino acid change: synonymous
+
+Position: 2608 (1-indexed: 2609)
+Coverage: 5819
+  A: 5354
+  G: 35
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 35, N (total): 5389
+P-value: 1.92e-17
+Amino acid change: KR
+
+Position: 2711 (1-indexed: 2712)
+Coverage: 5741
+  A: 5153
+  G: 82
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 82, N (total): 5235
+P-value: 6.11e-67
+Amino acid change: synonymous
+
+Position: 2766 (1-indexed: 2767)
+Coverage: 4833
+  A: 4310
+  G: 38
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 38, N (total): 4348
+P-value: 4.41e-23
+Amino acid change: SG
+
+Position: 2771 (1-indexed: 2772)
+Coverage: 5014
+  A: 4321
+  G: 91
+  C: 2
+  T: 2
+Modification: AG
+X (modified): 91, N (total): 4412
+P-value: 1.86e-84
+Amino acid change: synonymous
+
+Position: 2774 (1-indexed: 2775)
+Coverage: 5057
+  A: 4467
+  G: 52
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 52, N (total): 4519
+P-value: 1.33e-36
+Amino acid change: synonymous
+
+Position: 2776 (1-indexed: 2777)
+Coverage: 5143
+  A: 4579
+  G: 89
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 89, N (total): 4668
+P-value: 1.00e-79
+Amino acid change: QR
+
+Position: 2777 (1-indexed: 2778)
+Coverage: 5187
+  A: 4239
+  G: 404
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 404, N (total): 4643
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 2779 (1-indexed: 2780)
+Coverage: 5236
+  A: 4619
+  G: 97
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 97, N (total): 4716
+P-value: 8.63e-90
+Amino acid change: QR
+
+Position: 2791 (1-indexed: 2792)
+Coverage: 5329
+  A: 4773
+  G: 27
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 27, N (total): 4800
+P-value: 2.14e-12
+Amino acid change: NS
+
+Position: 2816 (1-indexed: 2817)
+Coverage: 5738
+  A: 5033
+  G: 70
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 70, N (total): 5103
+P-value: 1.28e-53
+Amino acid change: synonymous
+
+Position: 2817 (1-indexed: 2818)
+Coverage: 5691
+  G: 3472
+  A: 1655
+  C: 1
+  T: 0
+Modification: GA
+X (modified): 1655, N (total): 5127
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 2825 (1-indexed: 2826)
+Coverage: 6029
+  T: 5401
+  C: 30
+  A: 2
+  G: 1
+Modification: TC
+X (modified): 30, N (total): 5431
+P-value: 2.11e-13
+Amino acid change: synonymous
+
+Position: 2827 (1-indexed: 2828)
+Coverage: 5778
+  A: 4653
+  G: 369
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 369, N (total): 5022
+P-value: 0.00e+00
+Amino acid change: EG
+
+Position: 2833 (1-indexed: 2834)
+Coverage: 4741
+  A: 3109
+  G: 997
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 997, N (total): 4106
+P-value: 0.00e+00
+Amino acid change: QR
+
+Position: 2843 (1-indexed: 2844)
+Coverage: 4824
+  A: 4244
+  G: 101
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 101, N (total): 4345
+P-value: 1.34e-98
+Amino acid change: synonymous
+
+Position: 2857 (1-indexed: 2858)
+Coverage: 5375
+  A: 4618
+  G: 233
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 233, N (total): 4851
+P-value: 2.27e-297
+Amino acid change: KR
+
+Position: 2864 (1-indexed: 2865)
+Coverage: 5464
+  A: 4694
+  G: 117
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 117, N (total): 4811
+P-value: 3.83e-116
+Amino acid change: synonymous
+
+Position: 2865 (1-indexed: 2866)
+Coverage: 5457
+  G: 4267
+  A: 520
+  C: 5
+  T: 0
+Modification: GA
+X (modified): 520, N (total): 4787
+P-value: 0.00e+00
+Amino acid change: AT
+
+Position: 2868 (1-indexed: 2869)
+Coverage: 5388
+  G: 3872
+  A: 948
+  C: 0
+  T: 0
+Modification: GA
+X (modified): 948, N (total): 4820
+P-value: 0.00e+00
+Amino acid change: GS
+
+Position: 2875 (1-indexed: 2876)
+Coverage: 5527
+  G: 4543
+  A: 371
+  T: 1
+  C: 0
+Modification: GA
+X (modified): 371, N (total): 4914
+P-value: 0.00e+00
+Amino acid change: RQ
+
+Position: 2877 (1-indexed: 2878)
+Coverage: 5449
+  A: 4447
+  G: 254
+  C: 1
+  T: 0
+Modification: AG
+X (modified): 254, N (total): 4701
+P-value: 0.00e+00
+Amino acid change: SG
+
+Position: 2878 (1-indexed: 2879)
+Coverage: 5654
+  G: 3758
+  A: 1029
+  T: 1
+  C: 0
+Modification: GA
+X (modified): 1029, N (total): 4787
+P-value: 0.00e+00
+Amino acid change: SN
+
+Position: 2906 (1-indexed: 2907)
+Coverage: 5762
+  A: 5028
+  G: 161
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 161, N (total): 5189
+P-value: 9.72e-176
+Amino acid change: synonymous
+
+Position: 2916 (1-indexed: 2917)
+Coverage: 6112
+  A: 5236
+  G: 158
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 158, N (total): 5394
+P-value: 1.27e-168
+Amino acid change: TA
+
+Position: 2926 (1-indexed: 2927)
+Coverage: 6083
+  A: 5410
+  G: 52
+  C: 1
+  T: 1
+Modification: AG
+X (modified): 52, N (total): 5462
+P-value: 1.06e-32
+Amino acid change: QR
+
+Position: 2927 (1-indexed: 2928)
+Coverage: 6109
+  A: 5412
+  G: 95
+  T: 2
+  C: 1
+Modification: AG
+X (modified): 95, N (total): 5507
+P-value: 4.92e-81
+Amino acid change: synonymous
+
+Position: 2947 (1-indexed: 2948)
+Coverage: 6743
+  A: 5884
+  G: 39
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 39, N (total): 5923
+P-value: 1.89e-19
+Amino acid change: HR
+
+Position: 2953 (1-indexed: 2954)
+Coverage: 6772
+  A: 5920
+  G: 114
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 114, N (total): 6034
+P-value: 3.70e-101
+Amino acid change: QR
+
+Position: 2959 (1-indexed: 2960)
+Coverage: 6160
+  A: 4779
+  G: 640
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 640, N (total): 5419
+P-value: 0.00e+00
+Amino acid change: QR
+
+Position: 3003 (1-indexed: 3004)
+Coverage: 5934
+  A: 5385
+  G: 157
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 157, N (total): 5542
+P-value: 2.47e-165
+Amino acid change: KE
+
+Position: 3004 (1-indexed: 3005)
+Coverage: 5895
+  A: 4515
+  G: 899
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 899, N (total): 5414
+P-value: 0.00e+00
+Amino acid change: KR
+
+Position: 3064 (1-indexed: 3065)
+Coverage: 6890
+  A: 6248
+  G: 64
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 64, N (total): 6312
+P-value: 1.98e-41
+Amino acid change: KR
+
+Position: 3070 (1-indexed: 3071)
+Coverage: 6782
+  A: 6121
+  G: 27
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 27, N (total): 6148
+P-value: 4.79e-10
+Amino acid change: KR
+
+Position: 3094 (1-indexed: 3095)
+Coverage: 6811
+  A: 5993
+  G: 107
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 107, N (total): 6100
+P-value: 9.04e-92
+Amino acid change: QR
+
+Position: 3116 (1-indexed: 3117)
+Coverage: 7130
+  A: 6190
+  G: 174
+  T: 12
+  C: 0
+Modification: AG
+X (modified): 174, N (total): 6364
+P-value: 2.14e-180
+Amino acid change: synonymous
+
+Position: 3122 (1-indexed: 3123)
+Coverage: 7298
+  A: 6521
+  G: 34
+  C: 1
+  T: 0
+Modification: AG
+X (modified): 34, N (total): 6555
+P-value: 3.25e-14
+Amino acid change: synonymous
+
+Position: 3221 (1-indexed: 3222)
+Coverage: 6674
+  A: 5484
+  G: 129
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 129, N (total): 5613
+P-value: 8.74e-125
+Amino acid change: synonymous
+
+Position: 3230 (1-indexed: 3231)
+Coverage: 6543
+  A: 5106
+  G: 528
+  C: 2
+  T: 0
+Modification: AG
+X (modified): 528, N (total): 5634
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 3244 (1-indexed: 3245)
+Coverage: 7199
+  A: 6391
+  G: 38
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 38, N (total): 6429
+P-value: 1.75e-17
+Amino acid change: EG
+
+Position: 3258 (1-indexed: 3259)
+Coverage: 7905
+  A: 7164
+  G: 36
+  T: 2
+  C: 1
+Modification: AG
+X (modified): 36, N (total): 7200
+P-value: 1.72e-14
+Amino acid change: ND
+
+Position: 3259 (1-indexed: 3260)
+Coverage: 7901
+  A: 7101
+  G: 67
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 67, N (total): 7168
+P-value: 3.78e-41
+Amino acid change: NS
+
+Position: 3268 (1-indexed: 3269)
+Coverage: 7707
+  A: 6698
+  G: 43
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 43, N (total): 6741
+P-value: 9.05e-21
+Amino acid change: QR
+
+Position: 3639 (1-indexed: 3640)
+Coverage: 4873
+  A: 4342
+  G: 22
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 22, N (total): 4364
+P-value: 1.61e-09
+Amino acid change: SG
+
+Position: 3832 (1-indexed: 3833)
+Coverage: 5077
+  G: 3953
+  A: 434
+  C: 0
+  T: 0
+Modification: GA
+X (modified): 434, N (total): 4387
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 4010 (1-indexed: 4011)
+Coverage: 6252
+  A: 5262
+  G: 67
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 67, N (total): 5329
+P-value: 4.91e-49
+Amino acid change: synonymous
+
+Position: 4034 (1-indexed: 4035)
+Coverage: 5255
+  A: 4774
+  G: 33
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 33, N (total): 4807
+P-value: 3.21e-17
+Amino acid change: synonymous
+
+Position: 4121 (1-indexed: 4122)
+Coverage: 5207
+  A: 4724
+  G: 36
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 36, N (total): 4760
+P-value: 5.92e-20
+Amino acid change: synonymous
+
+Position: 4122 (1-indexed: 4123)
+Coverage: 5210
+  A: 4579
+  G: 237
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 237, N (total): 4816
+P-value: 5.99e-305
+Amino acid change: ND
+
+Position: 4128 (1-indexed: 4129)
+Coverage: 5087
+  G: 4319
+  A: 280
+  C: 6
+  T: 0
+Modification: GA
+X (modified): 280, N (total): 4599
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 4145 (1-indexed: 4146)
+Coverage: 5496
+  A: 4897
+  G: 47
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 47, N (total): 4944
+P-value: 1.08e-29
+Amino acid change: synonymous
+
+Position: 4149 (1-indexed: 4150)
+Coverage: 5450
+  A: 4842
+  G: 80
+  C: 4
+  T: 0
+Modification: AG
+X (modified): 80, N (total): 4922
+P-value: 1.44e-66
+Amino acid change: MV
+
+Position: 4163 (1-indexed: 4164)
+Coverage: 5783
+  A: 2792
+  G: 2289
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 2289, N (total): 5081
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 4171 (1-indexed: 4172)
+Coverage: 6106
+  A: 5379
+  G: 61
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 61, N (total): 5440
+P-value: 5.27e-42
+Amino acid change: EG
+
+Position: 4172 (1-indexed: 4173)
+Coverage: 6096
+  A: 4014
+  G: 1502
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 1502, N (total): 5516
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 4173 (1-indexed: 4174)
+Coverage: 6109
+  A: 5286
+  G: 227
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 227, N (total): 5513
+P-value: 1.41e-274
+Amino acid change: ND
+
+Position: 4183 (1-indexed: 4184)
+Coverage: 6198
+  A: 5337
+  G: 42
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 42, N (total): 5379
+P-value: 1.62e-23
+Amino acid change: EG
+
+Position: 4186 (1-indexed: 4187)
+Coverage: 6204
+  A: 5370
+  G: 145
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 145, N (total): 5515
+P-value: 2.96e-148
+Amino acid change: QR
+
+Position: 4194 (1-indexed: 4195)
+Coverage: 6045
+  A: 4701
+  G: 339
+  T: 2
+  C: 0
+Modification: AG
+X (modified): 339, N (total): 5040
+P-value: 0.00e+00
+Amino acid change: TA
+
+Position: 4257 (1-indexed: 4258)
+Coverage: 5672
+  A: 5015
+  G: 35
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 35, N (total): 5050
+P-value: 2.73e-18
+Amino acid change: SG
+
+Position: 4339 (1-indexed: 4340)
+Coverage: 5549
+  A: 4696
+  G: 327
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 327, N (total): 5023
+P-value: 0.00e+00
+Amino acid change: NS
+
+Position: 4373 (1-indexed: 4374)
+Coverage: 5081
+  A: 4604
+  G: 38
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 38, N (total): 4642
+P-value: 4.02e-22
+Amino acid change: synonymous
+
+Position: 4400 (1-indexed: 4401)
+Coverage: 5749
+  A: 4754
+  G: 64
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 64, N (total): 4818
+P-value: 2.43e-48
+Amino acid change: synonymous
+
+Position: 4403 (1-indexed: 4404)
+Coverage: 5681
+  A: 5010
+  G: 51
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 51, N (total): 5061
+P-value: 3.04e-33
+Amino acid change: synonymous
+
+Position: 4498 (1-indexed: 4499)
+Coverage: 4763
+  A: 4351
+  G: 73
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 73, N (total): 4424
+P-value: 2.35e-61
+Amino acid change: YC
+
+Position: 4538 (1-indexed: 4539)
+Coverage: 5878
+  A: 5405
+  G: 35
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 35, N (total): 5440
+P-value: 2.55e-17
+Amino acid change: synonymous
+
+Position: 4546 (1-indexed: 4547)
+Coverage: 5529
+  A: 5046
+  G: 59
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 59, N (total): 5105
+P-value: 2.13e-41
+Amino acid change: KR
+
+Position: 4582 (1-indexed: 4583)
+Coverage: 5303
+  A: 4135
+  G: 670
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 670, N (total): 4805
+P-value: 0.00e+00
+Amino acid change: YC
+
+Position: 4602 (1-indexed: 4603)
+Coverage: 5516
+  A: 5081
+  G: 36
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 36, N (total): 5117
+P-value: 5.71e-19
+Amino acid change: SG
+
+Position: 4611 (1-indexed: 4612)
+Coverage: 5644
+  A: 4936
+  G: 280
+  C: 1
+  T: 0
+Modification: AG
+X (modified): 280, N (total): 5216
+P-value: 0.00e+00
+Amino acid change: RG
+
+Position: 4633 (1-indexed: 4634)
+Coverage: 4984
+  A: 4531
+  G: 24
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 24, N (total): 4555
+P-value: 1.26e-10
+Amino acid change: NS
+
+Position: 4635 (1-indexed: 4636)
+Coverage: 4842
+  A: 4384
+  G: 54
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 54, N (total): 4438
+P-value: 3.76e-39
+Amino acid change: SG
+
+Position: 4704 (1-indexed: 4705)
+Coverage: 4853
+  A: 4302
+  G: 29
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 29, N (total): 4331
+P-value: 4.69e-15
+Amino acid change: RG
+
+Position: 4711 (1-indexed: 4712)
+Coverage: 4756
+  A: 4266
+  G: 53
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 53, N (total): 4319
+P-value: 1.22e-38
+Amino acid change: QR
+
+Position: 4714 (1-indexed: 4715)
+Coverage: 4918
+  A: 3266
+  G: 1080
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 1080, N (total): 4346
+P-value: 0.00e+00
+Amino acid change: EG
+
+Position: 4722 (1-indexed: 4723)
+Coverage: 5190
+  A: 4322
+  G: 187
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 187, N (total): 4509
+P-value: 3.89e-227
+Amino acid change: TA
+
+Position: 4781 (1-indexed: 4782)
+Coverage: 6399
+  A: 5822
+  G: 36
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 36, N (total): 5858
+P-value: 3.68e-17
+Amino acid change: synonymous
+
+Position: 4793 (1-indexed: 4794)
+Coverage: 6340
+  A: 5515
+  G: 36
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 36, N (total): 5551
+P-value: 7.09e-18
+Amino acid change: synonymous
+
+Position: 4803 (1-indexed: 4804)
+Coverage: 6320
+  A: 5317
+  G: 90
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 90, N (total): 5407
+P-value: 1.54e-75
+Amino acid change: SG
+
+Position: 4829 (1-indexed: 4830)
+Coverage: 6562
+  A: 5291
+  G: 135
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 135, N (total): 5426
+P-value: 5.17e-135
+Amino acid change: synonymous
+
+Position: 4839 (1-indexed: 4840)
+Coverage: 7379
+  A: 6180
+  G: 38
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 38, N (total): 6218
+P-value: 6.03e-18
+Amino acid change: KE
+
+Position: 4841 (1-indexed: 4842)
+Coverage: 7262
+  A: 4137
+  G: 114
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 114, N (total): 4251
+P-value: 6.27e-118
+Amino acid change: synonymous
+
+Position: 4849 (1-indexed: 4850)
+Coverage: 6986
+  A: 5515
+  G: 84
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 84, N (total): 5599
+P-value: 4.81e-67
+Amino acid change: QR
+
+Position: 4850 (1-indexed: 4851)
+Coverage: 6973
+  A: 4614
+  G: 222
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 222, N (total): 4836
+P-value: 4.71e-279
+Amino acid change: synonymous
+
+Position: 4996 (1-indexed: 4997)
+Coverage: 5207
+  A: 4640
+  G: 60
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 60, N (total): 4700
+P-value: 1.82e-44
+Amino acid change: NS
+
+Position: 5054 (1-indexed: 5055)
+Coverage: 7067
+  A: 6415
+  G: 123
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 123, N (total): 6538
+P-value: 8.90e-109
+Amino acid change: synonymous
+
+Position: 5066 (1-indexed: 5067)
+Coverage: 7181
+  A: 6360
+  G: 177
+  T: 2
+  C: 1
+Modification: AG
+X (modified): 177, N (total): 6537
+P-value: 9.67e-183
+Amino acid change: synonymous
+
+Position: 5075 (1-indexed: 5076)
+Coverage: 7811
+  A: 7030
+  G: 73
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 73, N (total): 7103
+P-value: 2.15e-47
+Amino acid change: synonymous
+
+Position: 5134 (1-indexed: 5135)
+Coverage: 6992
+  A: 6088
+  G: 322
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 322, N (total): 6410
+P-value: 0.00e+00
+Amino acid change: KR
+
+Position: 5143 (1-indexed: 5144)
+Coverage: 6747
+  A: 5964
+  G: 31
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 31, N (total): 5995
+P-value: 4.57e-13
+Amino acid change: QR
+
+Position: 5154 (1-indexed: 5155)
+Coverage: 6600
+  A: 5857
+  G: 118
+  T: 3
+  C: 0
+Modification: AG
+X (modified): 118, N (total): 5975
+P-value: 8.11e-107
+Amino acid change: RG
+
+Position: 5201 (1-indexed: 5202)
+Coverage: 6016
+  A: 3748
+  G: 1698
+  T: 3
+  C: 0
+Modification: AG
+X (modified): 1698, N (total): 5446
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 5264 (1-indexed: 5265)
+Coverage: 5142
+  A: 4690
+  G: 26
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 26, N (total): 4716
+P-value: 8.35e-12
+Amino acid change: synonymous
+
+Position: 5332 (1-indexed: 5333)
+Coverage: 4689
+  A: 4103
+  G: 233
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 233, N (total): 4336
+P-value: 8.39e-309
+Amino acid change: KR
+
+Position: 5339 (1-indexed: 5340)
+Coverage: 5203
+  A: 4522
+  G: 94
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 94, N (total): 4616
+P-value: 1.11e-86
+Amino acid change: synonymous
+
+Position: 5381 (1-indexed: 5382)
+Coverage: 5469
+  A: 4583
+  G: 240
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 240, N (total): 4823
+P-value: 5.99e-310
+Amino acid change: synonymous
+
+Position: 5483 (1-indexed: 5484)
+Coverage: 5392
+  A: 2496
+  G: 2244
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 2244, N (total): 4740
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 5563 (1-indexed: 5564)
+Coverage: 6897
+  A: 6247
+  G: 58
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 58, N (total): 6305
+P-value: 1.70e-35
+Amino acid change: KR
+
+Position: 5606 (1-indexed: 5607)
+Coverage: 7295
+  A: 6170
+  G: 242
+  T: 2
+  C: 0
+Modification: AG
+X (modified): 242, N (total): 6412
+P-value: 1.77e-283
+Amino acid change: synonymous
+
+Position: 5609 (1-indexed: 5610)
+Coverage: 7465
+  A: 6491
+  G: 147
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 147, N (total): 6638
+P-value: 1.24e-139
+Amino acid change: synonymous
+
+Position: 5612 (1-indexed: 5613)
+Coverage: 7483
+  A: 6619
+  G: 90
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 90, N (total): 6709
+P-value: 1.33e-67
+Amino acid change: synonymous
+
+Position: 5617 (1-indexed: 5618)
+Coverage: 7269
+  A: 6401
+  G: 29
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 29, N (total): 6430
+P-value: 6.11e-11
+Amino acid change: YC
+
+Position: 5623 (1-indexed: 5624)
+Coverage: 7481
+  A: 6525
+  G: 74
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 74, N (total): 6599
+P-value: 1.41e-50
+Amino acid change: KR
+
+Position: 5637 (1-indexed: 5638)
+Coverage: 7111
+  G: 4834
+  A: 1199
+  C: 5
+  T: 1
+Modification: GA
+X (modified): 1199, N (total): 6033
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 5643 (1-indexed: 5644)
+Coverage: 7184
+  A: 6171
+  G: 111
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 111, N (total): 6282
+P-value: 1.83e-95
+Amino acid change: ND
+
+Position: 5644 (1-indexed: 5645)
+Coverage: 7274
+  A: 6312
+  G: 167
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 167, N (total): 6479
+P-value: 4.80e-169
+Amino acid change: NS
+
+Position: 5653 (1-indexed: 5654)
+Coverage: 7343
+  A: 5842
+  G: 806
+  C: 1
+  T: 0
+Modification: AG
+X (modified): 806, N (total): 6648
+P-value: 0.00e+00
+Amino acid change: KR
+
+Position: 5663 (1-indexed: 5664)
+Coverage: 7602
+  A: 6705
+  G: 33
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 33, N (total): 6738
+P-value: 3.55e-13
+Amino acid change: synonymous
+
+Position: 5666 (1-indexed: 5667)
+Coverage: 7532
+  A: 6350
+  G: 321
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 321, N (total): 6671
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 5672 (1-indexed: 5673)
+Coverage: 7491
+  A: 6662
+  G: 48
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 48, N (total): 6710
+P-value: 4.83e-25
+Amino acid change: synonymous
+
+Position: 5737 (1-indexed: 5738)
+Coverage: 6719
+  A: 5904
+  G: 126
+  C: 1
+  T: 0
+Modification: AG
+X (modified): 126, N (total): 6030
+P-value: 6.75e-117
+Amino acid change: EG
+
+Position: 5738 (1-indexed: 5739)
+Coverage: 6715
+  A: 5943
+  G: 62
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 62, N (total): 6005
+P-value: 1.24e-40
+Amino acid change: synonymous
+
+Position: 5773 (1-indexed: 5774)
+Coverage: 7525
+  A: 6522
+  G: 245
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 245, N (total): 6767
+P-value: 1.40e-282
+Amino acid change: KR
+
+Position: 5806 (1-indexed: 5807)
+Coverage: 7692
+  A: 6947
+  G: 31
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 31, N (total): 6978
+P-value: 1.99e-11
+Amino acid change: KR
+
+Position: 5936 (1-indexed: 5937)
+Coverage: 6540
+  A: 5689
+  G: 60
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 60, N (total): 5749
+P-value: 1.24e-39
+Amino acid change: synonymous
+
+Position: 5984 (1-indexed: 5985)
+Coverage: 5638
+  A: 5087
+  G: 47
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 47, N (total): 5134
+P-value: 5.31e-29
+Amino acid change: synonymous
+
+Position: 6063 (1-indexed: 6064)
+Coverage: 6774
+  G: 4611
+  A: 1087
+  C: 2
+  T: 0
+Modification: GA
+X (modified): 1087, N (total): 5698
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 6078 (1-indexed: 6079)
+Coverage: 7045
+  A: 6111
+  G: 27
+  C: 1
+  T: 0
+Modification: AG
+X (modified): 27, N (total): 6138
+P-value: 4.63e-10
+Amino acid change: IV
+
+Position: 6116 (1-indexed: 6117)
+Coverage: 7310
+  A: 5325
+  G: 25
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 25, N (total): 5350
+P-value: 6.01e-10
+Amino acid change: synonymous
+
+Position: 6157 (1-indexed: 6158)
+Coverage: 7654
+  A: 6303
+  G: 111
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 111, N (total): 6414
+P-value: 1.64e-94
+Amino acid change: EG
+
+Position: 6175 (1-indexed: 6176)
+Coverage: 7909
+  A: 6933
+  G: 62
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 62, N (total): 6995
+P-value: 6.30e-37
+Amino acid change: QR
+
+Position: 6223 (1-indexed: 6224)
+Coverage: 6909
+  A: 6154
+  G: 62
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 62, N (total): 6216
+P-value: 8.67e-40
+Amino acid change: KR
+
+Position: 6242 (1-indexed: 6243)
+Coverage: 5991
+  A: 5205
+  G: 44
+  C: 1
+  T: 0
+Modification: AG
+X (modified): 44, N (total): 5249
+P-value: 9.37e-26
+Amino acid change: synonymous
+
+Position: 6245 (1-indexed: 6246)
+Coverage: 5639
+  A: 4755
+  G: 25
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 25, N (total): 4780
+P-value: 6.15e-11
+Amino acid change: synonymous
+
+Position: 6261 (1-indexed: 6262)
+Coverage: 6141
+  A: 5448
+  G: 95
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 95, N (total): 5543
+P-value: 8.87e-81
+Amino acid change: MV
+
+Position: 6275 (1-indexed: 6276)
+Coverage: 6436
+  A: 5308
+  G: 289
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 289, N (total): 5597
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 6286 (1-indexed: 6287)
+Coverage: 6298
+  G: 3460
+  A: 2039
+  C: 2
+  T: 1
+Modification: GA
+X (modified): 2039, N (total): 5499
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 6296 (1-indexed: 6297)
+Coverage: 7084
+  A: 5983
+  G: 297
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 297, N (total): 6280
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 6325 (1-indexed: 6326)
+Coverage: 7250
+  A: 6534
+  G: 70
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 70, N (total): 6604
+P-value: 2.25e-46
+Amino acid change: KR
+
+Position: 6353 (1-indexed: 6354)
+Coverage: 7741
+  A: 6601
+  G: 68
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 68, N (total): 6669
+P-value: 4.66e-44
+Amino acid change: synonymous
+
+Position: 6368 (1-indexed: 6369)
+Coverage: 7706
+  A: 6876
+  G: 115
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 115, N (total): 6991
+P-value: 1.93e-95
+Amino acid change: IM
+
+Position: 6412 (1-indexed: 6413)
+Coverage: 6313
+  A: 5726
+  G: 96
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 96, N (total): 5822
+P-value: 4.44e-80
+Amino acid change: NS
+
+Position: 6422 (1-indexed: 6423)
+Coverage: 6538
+  A: 5978
+  G: 51
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 51, N (total): 6029
+P-value: 9.23e-30
+Amino acid change: synonymous
+
+Position: 6465 (1-indexed: 6466)
+Coverage: 5656
+  A: 4913
+  G: 37
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 37, N (total): 4950
+P-value: 2.68e-20
+Amino acid change: TA
+
+Position: 6494 (1-indexed: 6495)
+Coverage: 6625
+  A: 5633
+  G: 55
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 55, N (total): 5688
+P-value: 8.01e-35
+Amino acid change: synonymous
+
+Position: 6501 (1-indexed: 6502)
+Coverage: 6752
+  A: 5817
+  G: 66
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 66, N (total): 5883
+P-value: 2.57e-45
+Amino acid change: IV
+
+Position: 6521 (1-indexed: 6522)
+Coverage: 6026
+  A: 3633
+  G: 1670
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 1670, N (total): 5303
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 6541 (1-indexed: 6542)
+Coverage: 5590
+  A: 5118
+  G: 27
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 27, N (total): 5145
+P-value: 1.01e-11
+Amino acid change: KR
+
+Position: 6542 (1-indexed: 6543)
+Coverage: 5630
+  A: 5148
+  G: 24
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 24, N (total): 5172
+P-value: 1.49e-09
+Amino acid change: synonymous
+
+Position: 6572 (1-indexed: 6573)
+Coverage: 6617
+  T: 5517
+  C: 45
+  A: 1
+  G: 1
+Modification: TC
+X (modified): 45, N (total): 5562
+P-value: 1.09e-25
+Amino acid change: synonymous
+
+Position: 6581 (1-indexed: 6582)
+Coverage: 5522
+  A: 4605
+  G: 156
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 156, N (total): 4761
+P-value: 5.55e-174
+Amino acid change: synonymous
+
+Position: 6632 (1-indexed: 6633)
+Coverage: 6889
+  G: 4586
+  A: 1376
+  T: 3
+  C: 1
+Modification: GA
+X (modified): 1376, N (total): 5962
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 6646 (1-indexed: 6647)
+Coverage: 6669
+  G: 5317
+  A: 757
+  T: 1
+  C: 0
+Modification: GA
+X (modified): 757, N (total): 6074
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 6650 (1-indexed: 6651)
+Coverage: 7084
+  A: 5759
+  G: 617
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 617, N (total): 6376
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 6663 (1-indexed: 6664)
+Coverage: 6770
+  A: 5823
+  G: 323
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 323, N (total): 6146
+P-value: 0.00e+00
+Amino acid change: IV
+
+Position: 6747 (1-indexed: 6748)
+Coverage: 7648
+  A: 5638
+  G: 1201
+  C: 2
+  T: 1
+Modification: AG
+X (modified): 1201, N (total): 6839
+P-value: 0.00e+00
+Amino acid change: RG
+
+Position: 6755 (1-indexed: 6756)
+Coverage: 7455
+  A: 6409
+  G: 230
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 230, N (total): 6639
+P-value: 4.77e-261
+Amino acid change: synonymous
+
+Position: 6756 (1-indexed: 6757)
+Coverage: 7277
+  G: 5222
+  A: 1233
+  T: 1
+  C: 0
+Modification: GA
+X (modified): 1233, N (total): 6455
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 6757 (1-indexed: 6758)
+Coverage: 7409
+  A: 3608
+  G: 2863
+  T: 2
+  C: 0
+Modification: AG
+X (modified): 2863, N (total): 6471
+P-value: 0.00e+00
+Amino acid change: KR
+
+Position: 6784 (1-indexed: 6785)
+Coverage: 7151
+  A: 6213
+  G: 104
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 104, N (total): 6317
+P-value: 1.57e-86
+Amino acid change: KR
+
+Position: 6797 (1-indexed: 6798)
+Coverage: 7997
+  A: 7176
+  G: 60
+  C: 1
+  T: 1
+Modification: AG
+X (modified): 60, N (total): 7236
+P-value: 3.02e-34
+Amino acid change: synonymous
+
+Position: 6853 (1-indexed: 6854)
+Coverage: 7574
+  A: 6640
+  G: 62
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 62, N (total): 6702
+P-value: 5.85e-38
+Amino acid change: KR
+
+Position: 6870 (1-indexed: 6871)
+Coverage: 7966
+  A: 6964
+  G: 124
+  C: 1
+  T: 0
+Modification: AG
+X (modified): 124, N (total): 7088
+P-value: 6.55e-106
+Amino acid change: SG
+
+Position: 6945 (1-indexed: 6946)
+Coverage: 6731
+  A: 6046
+  G: 151
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 151, N (total): 6197
+P-value: 1.88e-149
+Amino acid change: RG
+
+Position: 6967 (1-indexed: 6968)
+Coverage: 7533
+  A: 6732
+  G: 126
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 126, N (total): 6858
+P-value: 3.82e-110
+Amino acid change: KR
+
+Position: 6978 (1-indexed: 6979)
+Coverage: 7987
+  A: 6790
+  G: 193
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 193, N (total): 6983
+P-value: 9.26e-201
+Amino acid change: SG
+
+Position: 7108 (1-indexed: 7109)
+Coverage: 7819
+  A: 6966
+  G: 119
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 119, N (total): 7085
+P-value: 1.02e-99
+Amino acid change: KR
+
+Position: 7117 (1-indexed: 7118)
+Coverage: 7534
+  A: 6459
+  G: 313
+  T: 2
+  C: 0
+Modification: AG
+X (modified): 313, N (total): 6772
+P-value: 0.00e+00
+Amino acid change: KR
+
+Position: 7138 (1-indexed: 7139)
+Coverage: 7868
+  A: 6813
+  G: 39
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 39, N (total): 6852
+P-value: 2.29e-17
+Amino acid change: NS
+
+Position: 7193 (1-indexed: 7194)
+Coverage: 7800
+  A: 5785
+  G: 68
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 68, N (total): 5853
+P-value: 1.39e-47
+Amino acid change: synonymous
+
+Position: 7200 (1-indexed: 7201)
+Coverage: 7726
+  A: 6362
+  G: 136
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 136, N (total): 6498
+P-value: 4.10e-126
+Amino acid change: ND
+
+Position: 7201 (1-indexed: 7202)
+Coverage: 7742
+  A: 6001
+  G: 84
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 84, N (total): 6085
+P-value: 3.40e-64
+Amino acid change: NS
+
+Position: 7230 (1-indexed: 7231)
+Coverage: 7930
+  A: 6316
+  G: 42
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 42, N (total): 6358
+P-value: 7.20e-21
+Amino acid change: RG
+
+Position: 7256 (1-indexed: 7257)
+Coverage: 7701
+  A: 6698
+  G: 52
+  C: 1
+  T: 0
+Modification: AG
+X (modified): 52, N (total): 6750
+P-value: 1.90e-28
+Amino acid change: synonymous
+
+Position: 7257 (1-indexed: 7258)
+Coverage: 7722
+  A: 6782
+  G: 59
+  T: 1
+  C: 0
+Modification: AG
+X (modified): 59, N (total): 6841
+P-value: 1.34e-34
+Amino acid change: SG
+
+Position: 7262 (1-indexed: 7263)
+Coverage: 7639
+  A: 4131
+  G: 2798
+  C: 2
+  T: 0
+Modification: AG
+X (modified): 2798, N (total): 6929
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 7265 (1-indexed: 7266)
+Coverage: 7891
+  A: 7052
+  G: 45
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 45, N (total): 7097
+P-value: 1.47e-21
+Amino acid change: synonymous
+
+Position: 7274 (1-indexed: 7275)
+Coverage: 7495
+  A: 6893
+  G: 35
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 35, N (total): 6928
+P-value: 2.93e-14
+Amino acid change: synonymous
+
+Position: 7316 (1-indexed: 7317)
+Coverage: 7949
+  A: 7186
+  G: 52
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 52, N (total): 7238
+P-value: 4.51e-27
+Amino acid change: synonymous
+
+Position: 7439 (1-indexed: 7440)
+Coverage: 7808
+  A: 6906
+  G: 134
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 134, N (total): 7040
+P-value: 5.55e-119
+Amino acid change: synonymous
+
+Position: 7468 (1-indexed: 7469)
+Coverage: 7376
+  A: 6749
+  G: 32
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 32, N (total): 6781
+P-value: 2.07e-12
+Amino acid change: QR
+
+Position: 7502 (1-indexed: 7503)
+Coverage: 7160
+  A: 6482
+  G: 36
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 36, N (total): 6518
+P-value: 9.17e-16
+Amino acid change: synonymous
+
+Position: 7576 (1-indexed: 7577)
+Coverage: 7734
+  A: 7037
+  G: 41
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 41, N (total): 7078
+P-value: 1.96e-18
+Amino acid change: QR
+
+Position: 7577 (1-indexed: 7578)
+Coverage: 7723
+  A: 6019
+  G: 983
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 983, N (total): 7002
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 7585 (1-indexed: 7586)
+Coverage: 7650
+  G: 4900
+  A: 2024
+  T: 1
+  C: 0
+Modification: GA
+X (modified): 2024, N (total): 6924
+P-value: 0.00e+00
+Amino acid change: synonymous
+
+Position: 7751 (1-indexed: 7752)
+Coverage: 7464
+  A: 6631
+  G: 34
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 34, N (total): 6665
+P-value: 5.15e-14
+Amino acid change: synonymous
+
+Position: 7820 (1-indexed: 7821)
+Coverage: 7622
+  A: 6926
+  G: 41
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 41, N (total): 6967
+P-value: 1.14e-18
+Amino acid change: synonymous
+
+Position: 7823 (1-indexed: 7824)
+Coverage: 7578
+  A: 6418
+  G: 46
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 46, N (total): 6464
+P-value: 5.59e-24
+Amino acid change: synonymous
+
+Position: 7954 (1-indexed: 7955)
+Coverage: 7214
+  A: 6481
+  G: 82
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 82, N (total): 6563
+P-value: 2.11e-59
+Amino acid change: NS

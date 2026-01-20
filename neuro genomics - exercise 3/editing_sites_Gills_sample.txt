@@ -1,0 +1,65 @@
+# RNA Editing Analysis - Gills (Peripheral Tissue)
+# Mode: sample
+# Total ORF size for Bonferroni: 16619469
+# P-value cutoff (after Bonferroni): 3.01e-09
+
+
+============================================================
+Gene: comp141540_c0_seq3
+ORF: 721-7956
+============================================================
+
+Position: 2875 (1-indexed: 2876)
+Coverage: 143
+  A: 124
+  G: 9
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 9, N (total): 133
+P-value: 2.43e-14
+Amino acid change: synonymous
+
+Position: 4128 (1-indexed: 4129)
+Coverage: 123
+  A: 106
+  G: 9
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 9, N (total): 115
+P-value: 6.39e-15
+Amino acid change: IV
+
+Position: 4349 (1-indexed: 4350)
+Coverage: 150
+  T: 70
+  C: 67
+  A: 0
+  G: 0
+Modification: TC
+X (modified): 67, N (total): 137
+P-value: 1.07e-161
+Amino acid change: synonymous
+
+Position: 4874 (1-indexed: 4875)
+Coverage: 132
+  C: 72
+  G: 54
+  A: 0
+  T: 0
+Modification: CG
+X (modified): 54, N (total): 126
+P-value: 1.56e-126
+Amino acid change: synonymous
+
+Position: 7103 (1-indexed: 7104)
+Coverage: 407
+  A: 187
+  G: 185
+  C: 0
+  T: 0
+Modification: AG
+X (modified): 185, N (total): 372
+P-value: 0.00e+00
+Amino acid change: synonymous
