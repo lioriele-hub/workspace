@@ -1,0 +1,57 @@
+circadian_genes_80tp.csv
+circadian_genes_expression.csv
+Part1_Quantile_normalization.png
+Part1_TMM_normalization.png
+Part2_genes_detected.png
+Part2_true_positive_rate.png
+Part2a_first_10_trials.png
+Part2c_trials_11_20_faces.png
+Part2d_face_response_pattern.png
+Part3_clustering_results.csv
+Part3_clustering_results.txt
+Part3_dispersion_poisson_nb.png
+Part4_MA_plot.png
+Part4_selected_gene_profile.png
+Part4_visual_first_pair.png
+Part5_per1a_expression.png
+Part5_per1a_FFT_power.png
+Part6_variable_genes.png
+pasilla_gene_counts.tsv
+Question3_baseline_verification.png
+Question5a_Figure1_faces_ERP.png
+Question5b_Figure1_both_conditions.png
+Question5d_Figure2_smoothed_ERPs.png
+Question5e_Figure3_difference_wave.png
+Question5f_response_description.txt
+Task2a_first_10_trials.png
+Task2c_trials_11_20_faces.png
+Task3_baseline_difference.png
+Task3_baseline_normalization_verification.png
+Task3_baseline_scatter.png
+Task3_baseline_zoom.png
+Task5_Figure1_faces_ERP.png
+Task5a_Figure1_faces_ERP.png
+Task5b_Figure1_both_faces_conditions.png
+Task5d_Figure2_smoothed_ERPs.png
+Task5e_Figure3_difference_wave.png
+Part1_Quantile_normalization.png
+Part1_TMM_normalization.png
+Part2_genes_detected.png
+Part2_true_positive_rate.png
+brain functioning - exercise 1/ex1data.mat
+neuro genomics - exercise 3/aligned_RNAreads_gills_sorted.bam
+neuro genomics - exercise 3/aligned_RNAreads_gills_sorted.bam.bai
+neuro genomics - exercise 3/aligned_RNAreads_sorted.bam
+neuro genomics - exercise 3/aligned_RNAreads_sorted.bam.bai
+neuro genomics - exercise 3/pealeii.txt
+neuro genomics - final project/C1.fastq
+fmri_data_FAO.mat
+genetics.code-workspace
+hrf_FAO_Q3.mat
+hrf_Q1.mat
+project1.code-workspace
+.vscode/launch.json
+.vscode/settings.json
+__MACOSX/._fmri_data_FAO.mat
+__MACOSX/._hrf_FAO_Q3.mat
+__MACOSX/._hrf_Q1.mat
